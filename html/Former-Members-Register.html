@@ -1,0 +1,2585 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Former Members Register | Queensland Parliament</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/QPS.ico" />
+
+    
+    
+    <link href="/styles/QPS.min.css" rel="stylesheet" />
+
+    <link href="/styles/QPS.generic.css" rel="stylesheet" />
+
+    <link href="/styles/daterangepicker.min.css" rel="stylesheet" />
+    
+    
+
+    
+    
+    
+    <style>
+        a[href]:not([href^="#"]):not([href^="blob"]):not([href=""])::after {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    
+
+  
+<div id="app-container" class="app-container">
+    <header class="header" role="banner">
+        <div class="container-fluid header pl-1 pr-1">
+    <div class="row no-gutters">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 logo">
+            <a href="/" title="Home" target="_self" alt="home page">
+                <img src="/-/media/Files/Project/QPS/Logos/parliament-logo.ashx?h=106&amp;w=112&amp;la=en&amp;hash=55A6209349E4B9787E940C7E76C38604" alt="QLD Parliament Logo" />
+            </a>
+        </div>
+        <div class="col col-xs-2 col-sm-2 col-md-2 col-lg-2 d-none d-lg-flex quickLinksBlock d-print-none">
+            
+        <div class="col js-watch-parliament" data-broadcast-endpoint="">
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live/chamber" class="btn btn-light lnkA" >                <i class="fa fa-fw fa-play-circle-o img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Parliament
+                </span>
+</a>        </div>
+
+        <div class="col js-watch-committees" data-broadcast-endpoint="">  
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live" class="btn btn-light js-single-comittee js-single-committee lnkC" >                <i class="fa fa-fw fa-podcast img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Committees
+                </span>
+</a>
+            <a id="watch-committees-dropdown-link" href="#" class="committees-dropdown-link btn btn-light d-none" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-fw fa-podcast img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Committees
+                    <i class="fa fa-chevron-down ml-1"></i>
+                </span>
+            </a>
+            <div class="dropdown-menu watch-committees-dropdown" aria-labelledby="watch-committees-dropdown-link">
+                
+            </div>
+        </div>
+
+
+        <div class="col">
+<a href="/Work-of-the-Assembly/Sitting-Dates/Dates" class="btn btn-light" >                    <i class="fa fa-fw fa-calendar img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Calendar
+                </span>
+</a>        </div>
+
+        </div>
+        <div class="col d-lg-none d-print-none">
+            <div class="row no-gutters mobileQuickLinksBlock">
+                
+        <div class="col js-watch-parliament" data-broadcast-endpoint="">
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live/chamber" class="btn btn-light lnkA" >                <i class="fa fa-fw fa-play-circle-o img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Parliament
+                </span>
+</a>        </div>
+
+        <div class="col js-watch-committees" data-broadcast-endpoint="">  
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live" class="btn btn-light js-single-comittee js-single-committee lnkC" >                <i class="fa fa-fw fa-podcast img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Committees
+                </span>
+</a>
+            <a id="watch-committees-dropdown-link" href="#" class="committees-dropdown-link btn btn-light d-none" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-fw fa-podcast img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Committees
+                    <i class="fa fa-chevron-down ml-1"></i>
+                </span>
+            </a>
+            <div class="dropdown-menu watch-committees-dropdown" aria-labelledby="watch-committees-dropdown-link">
+                
+            </div>
+        </div>
+
+
+        <div class="col">
+<a href="/Work-of-the-Assembly/Sitting-Dates/Dates" class="btn btn-light" >                    <i class="fa fa-fw fa-calendar img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Calendar
+                </span>
+</a>        </div>
+        <div class="col">
+<a href="/Global/Remote-Access" class="btn btn-light" >                    <i class="fa fa-lock img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Remote Access
+                </span>
+</a>        </div>
+        <div class="col">
+<a href="https://qplibrary.softlinkhosting.com.au/" class="btn btn-light" title="Login to Parliamentary Library" >                    <i class="fa fa-fw fa-book img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Parliamentary Library
+                </span>
+</a>        </div>
+        <div class="col">
+<a href="/Global/Search" class="btn btn-light" >                    <i class="fa fa-search img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Advance Search
+                </span>
+</a>        </div>
+
+                <div class="col">
+                    <button class="btn btn-light navbar-toggler collapsed" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="row logoHeadingContainer">
+                <div class="col logoHeading align-items-center">Queensland Parliament</div>
+            </div>
+        </div>
+
+        <div class="d-none d-lg-flex col align-items-center logoHeading">Queensland Parliament</div>
+
+        <div class="d-none d-lg-block col col-md-4 col-lg-4 align-items-end pr-4 d-print-none">
+                    <div class="phrase-search">
+            <div class="phrase-search__item">
+<a href="/Global/Remote-Access" class="phrase-search__searchLink" >                        <i class="fa fa-lock img-fluid"></i>
+                        <span class="d-none d-lg-inline">REMOTE ACCESS</span>
+</a>
+<a href="https://qplibrary.softlinkhosting.com.au/" class="phrase-search__searchLink" rel="noopener noreferrer" target="_blank" title="Login to Parliamentary Library" >                        <i class="fa fa-book img-fluid"></i>
+                        <span class="d-none d-lg-inline">Login to Parliamentary Library</span>
+</a>            </div>
+<form action="/api/sitecore/Search/SubmitPhraseSearch" class="phrase-search__item phrase-search-form" method="post">                <div class="input-group input-group-sm">
+                    <input aria-describedby="search-icon" aria-label="Search" class="form-control phrase-search-input" id="QueryText" maxLength="40" name="QueryText" placeholder="I am looking for..." type="text" value="" />
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <input type="hidden" id="SearchResultsPage" name="searchResultsPage" value="7b8dd7bc-027c-4ccb-a8b9-597049a7c4ac" />
+</form>            <div class="phrase-search__item">
+                <a href="/Global/Search" class="phrase-search__searchLink">
+                    <i class="fa fa-search img-fluid"></i>
+                    <span class="d-none d-lg-inline">Advanced Search</span>
+                </a>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- add search box -->
+            <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-4cb9ad6e-f6ac-4d27-809d-d32292078e6c"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle visitLearn"
+                                    title="Visit and learn"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Visit and learn
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu visitLearn"
+                                     aria-labelledby="#nav-item-button-4cb9ad6e-f6ac-4d27-809d-d32292078e6c">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Visit-and-learn" style="color: #ffffff !important; text-decoration: none !important">Visit and learn</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                Queensland Parliament welcomes all visitors. Find out how to visit the public gallery, take a tour or learn about parliament at one of our educational programs here. 
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Message-from-the-Speaker" class="nav-link">
+                                                                                    Message from the Speaker
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/About-Us" class="nav-link">
+                                                                                    About Us
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/About-Us/A-day-in-the-Life-of-the-Queensland-Parliament" class="nav-link">A day in the Life of the Queensland Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Executive-Government-of-Queensland" class="nav-link">The Executive Government of Queensland</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Officers-of-the-Queensland-Parliament" class="nav-link">Officers of the Queensland Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Origins-of-the-Queensland-Parliament" class="nav-link">The Origins of the Queensland Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Parliament-and-Parliamentary-Process" class="nav-link">The Queensland Parliament and Parliamentary Process</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Parliamentary-Scrutiny-via-Parliamentary-Committees" class="nav-link">Parliamentary Scrutiny via Parliamentary Committees</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Parliament-and-the-Financial-Process" class="nav-link">The Queensland Parliament and the Financial Process</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Parliament-and-the-Legislative-Process" class="nav-link">The Queensland Parliament and the Legislative Process</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Constitution" class="nav-link">The Queensland Constitution</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Electoral-System" class="nav-link">The Queensland Electoral System</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Role-of-Parliament" class="nav-link">The Role of Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Separation-of-Powers" class="nav-link">Separation of Powers</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Information-on-Parliament" class="nav-link">Information on Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Learn-About-Parliament" class="nav-link">Learn About Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Information-For" class="nav-link">Information For</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Visitors" class="nav-link">
+                                                                                    Visitors
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Visitors/Free-Guided-Tour" class="nav-link">Free Guided Tour</a>
+<a href="/Visit-and-learn/Education/Programs/School-Excursions" class="nav-link" >School Excursion</a>                                                                                                    <a href="/Visit-and-learn/Visitors/Take-a-look-inside-Parliament-House" class="nav-link">Take a look inside Parliament House</a>
+                                                                                                    <a href="/Visit-and-learn/Visitors/Visitors-with-Guide-Hearing-or-Assistance-animals" class="nav-link">Visitors with Guide, Hearing or Assistance animals</a>
+                                                                                                    <a href="/Visit-and-learn/Visitors/COVID-19-Response" class="nav-link">COVID 19 Response</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/VisitPublicGallery" class="nav-link">
+                                                                                    Visit the Public Gallery 
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Visit-our-Gift-Shop" class="nav-link">
+                                                                                    Visit our Gift Shop
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Have-Your-Say" class="nav-link">
+                                                                                    Have Your Say
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+<a href="/Members/Current-Members/Member-List" class="nav-link" >Contact your local member</a><a href="/Work-of-Committees/Guidelines" class="nav-link" >Make a submission</a><a href="/Global/FAQs/Frequently-Asked-Questions-during-an-election-period" class="nav-link" >Vote at State Elections</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/create" class="nav-link" >Sign or start a petition</a>                                                                                                    <a href="/Visit-and-learn/Have-Your-Say/Contact-Us" class="nav-link">Contact Us</a>
+                                                                                                    <a href="/Visit-and-learn/Have-Your-Say/Subscribe" class="nav-link">Subscribe</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Get-Involved" class="nav-link">
+                                                                                    Get Involved
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Get-Involved/EventsatParliamentHOuse" class="nav-link">Events at Parliament House</a>
+<a href="/Visit-and-learn/About-Us/Learn-About-Parliament" class="nav-link" >Learn about Parliament</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Education" class="nav-link">
+                                                                                    Education and Learning
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Education/Student-Learning-Zone" class="nav-link">Student Learning Zone</a>
+                                                                                                    <a href="/Visit-and-learn/Education/Teacher-Resources" class="nav-link">Teacher Resources</a>
+                                                                                                    <a href="/Visit-and-learn/Education/Programs" class="nav-link">Programs</a>
+                                                                                                    <a href="/Visit-and-learn/Education/Resources" class="nav-link">Information Resources</a>
+                                                                                                    <a href="/Visit-and-learn/Education/News" class="nav-link">News</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/History" class="nav-link">
+                                                                                    History
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/History/Overview" class="nav-link">Overview</a>
+                                                                                                    <a href="/Visit-and-learn/History/History-of-Parliament-House" class="nav-link">History of Parliament House</a>
+                                                                                                    <a href="/Visit-and-learn/History/Key-Dates-and-Events" class="nav-link">Key Dates and Events</a>
+                                                                                                    <a href="/Visit-and-learn/History/Womens-Suffrage" class="nav-link">Womens Suffrage</a>
+                                                                                                    <a href="/Visit-and-learn/History/Elections-and-Referendums" class="nav-link">Elections and Referendums</a>
+<a href="/Members/Former-Members/Former-Members-Register" class="nav-link" >Former Members</a><a href="/Work-of-Committees/Former-Committees" class="nav-link" >Former Committees</a>                                                                                                    <a href="/Visit-and-learn/History/Governors-of-Queensland" class="nav-link">Governors of Queensland</a>
+                                                                                                    <a href="/Visit-and-learn/History/ODonovan-Library-and-Collection" class="nav-link">O&#39;Donovan Library and Collection</a>
+                                                                                                    <a href="/Visit-and-learn/History/100-Women-in-Parliament" class="nav-link">100 Women in Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/History/Lucinda-Steamship" class="nav-link">Lucinda Steamship</a>
+                                                                                                    <a href="/Visit-and-learn/History/War-Service-Honour-Board" class="nav-link">War Service Honour Board</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="https://collections.parliament.qld.gov.au/explore" class="nav-link" >Heritage Collections</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Preservation-of-our-Heritage" class="nav-link">
+                                                                                    Preservation of our Heritage
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Preservation-of-our-Heritage/Restoration-of-Heritage-Maps" class="nav-link">Restoration of Heritage Maps </a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Regional-Sittings" class="nav-link">
+                                                                                    Regional Sittings
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/Far-North-Queensland-Regional-Sitting-2023" class="nav-link">Far North Queensland Regional Sitting 2023</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/North-Queensland-Regional-Parliament-2019" class="nav-link">North Queensland Regional Parliament 2019</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/Mackay-Regional-Sitting-of-Parliament" class="nav-link">Mackay Regional Sitting of Parliament 2011</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/Far-North-Queensland" class="nav-link">Far North Queensland</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/Central-Queensland" class="nav-link">Central Queensland</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/North-Queensland" class="nav-link">North Queensland</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/CPA-Australia-and-Pacific-Regional-Conference" class="nav-link">
+                                                                                    CPA Australia and Pacific Regional Conference
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Publications-and-Reports" class="nav-link">
+                                                                                    Publications and Reports
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Publications-and-Reports/Annual-Reports" class="nav-link">Annual Reports</a>
+<a href="/Work-of-the-Assembly/Record-of-Proceedings" class="nav-link" >Hansard</a>                                                                                                    <a href="/Visit-and-learn/Publications-and-Reports/Parliamentary-Record" class="nav-link">Parliamentary Record</a>
+                                                                                                    <a href="/Visit-and-learn/Publications-and-Reports/Chamber-and-Procedural-Publications" class="nav-link">Chamber and Procedural Publications</a>
+                                                                                                    <a href="/Visit-and-learn/Publications-and-Reports/States-Budget" class="nav-link">Parliament&#39;s Budget</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Speakers-Corner" class="nav-link">
+                                                                                    Speakers&#39; Corner 
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Opening-of-Parliament" class="nav-link">
+                                                                                    Opening of the 58th Parliament
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Annexe-Reparation" class="nav-link">
+                                                                                    Parliamentary Annexe Reparation and Refurbishment
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Contact-Us" class="nav-link">
+                                                                                    Contact Us
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Mega-Menu/Mace_Megamenu.ashx?h=250&amp;w=470&amp;la=en&amp;hash=FE0C74366F128DA3D27B9378C46EB51E" class="img-fluid" alt="Gold Mace" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-89e4910b-2abf-4452-85e8-60d78da496c6"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle workAssembly"
+                                    title="Work of the Assembly"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Work of the Assembly
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu workAssembly"
+                                     aria-labelledby="#nav-item-button-89e4910b-2abf-4452-85e8-60d78da496c6">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Work-of-the-Assembly" style="color: #ffffff !important; text-decoration: none !important">Work of the Assembly</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                The Queensland Parliament is a unicameral parliament, consisting of the Legislative Assembly of Queensland (the Lower House) and the sovereign (the King or Queen). Find out when the Legislative Assembly meet, the latest Bills and documents, records and statistics here. You can also watch live and archived broadcasts on demand.
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Whats-new" class="nav-link">
+                                                                                    What&#39;s New
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Sitting-Dates" class="nav-link">
+                                                                                    Sitting Dates
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Sitting-Dates/Latest-Sitting-Week" class="nav-link">Latest Sitting Week</a>
+<a href="/Work-of-the-Assembly/Sitting-Dates/Dates" class="nav-link" >Dates</a><a href="/Work-of-the-Assembly/Sitting-Dates/Work-of-the-House" class="nav-link" >Work of the House</a><a href="/Work-of-the-Assembly/Sitting-Dates/Chamber-Seating-Plan" class="nav-link" >Chamber Seating Plan</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Live-and-Archived-Broadcasts" class="nav-link">
+                                                                                    Live and Archived Broadcasts
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live" class="nav-link" >Live Parliament and Committee Broadcast</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/search?t=Chamber&amp;nf=chamber" class="nav-link" rel="noopener noreferrer" target="_blank" >Archived Chamber Broadcasts</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/search?t=Committee&amp;nf=committee" class="nav-link" rel="noopener noreferrer" target="_blank" >Archived Committee Broadcasts</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/search" class="nav-link" >Search Archived Broadcasts</a><a href="/Work-of-the-Assembly/Live-and-Archived-Broadcasts/Terms-and-Conditions" class="nav-link" >Terms and Conditions</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="/Work-of-the-Assembly/Sitting-Dates/Latest-Sitting-Week" class="nav-link" >Daily Agenda (Notice Paper)</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Record-of-Proceedings" class="nav-link">
+                                                                                    Record of Proceedings (Hansard)
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Record-of-Proceedings/Overview" class="nav-link">Overview</a>
+<a href="/Work-of-the-Assembly/Sitting-Dates/Latest-Sitting-Week" class="nav-link" >Latest Record of Proceedings</a><a href="/Work-of-the-Assembly/Sitting-Dates/Dates" class="nav-link" >Browse by Sitting Dates</a>                                                                                                    <a href="/Work-of-the-Assembly/Record-of-Proceedings/Indexes-to-Debates" class="nav-link">Indexes to Debates</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Citizens-Right-of-Reply" class="nav-link">
+                                                                                    Citizen&#39;s Right of Reply
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Petitions" class="nav-link">
+                                                                                    Petitions
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/create" class="nav-link" >Create a Petition</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/current" class="nav-link" >Open E-Petitions</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/closed" class="nav-link" >Closed Petitions</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/rules-and-information" class="nav-link" >Rules and Information</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Bills-and-Legislation" class="nav-link">
+                                                                                    Bills and Legislation
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Whats-new" class="nav-link">What&#39;s new</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Overview" class="nav-link">Overview</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Bills-this-Parliament" class="nav-link">Bills this Parliament</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Bills-before-the-House" class="nav-link">Bills before the House</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Bills-previous-Parliaments" class="nav-link">Bills previous Parliaments</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers" class="nav-link">
+                                                                                    Questions on Notice and Answers
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers/Questions-on-Notice-and-Answers-from-2004" class="nav-link">Questions on Notice and Answers from 2004</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers/Questions-on-Notice-and-Answers-from-1995-to-2003" class="nav-link">Questions on Notice and Answers from 1995 to 2003</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers/Procedures-for-Answering" class="nav-link">Procedures for Answering</a>
+<a href="/Visit-and-learn/Have-Your-Say/Subscribe" class="nav-link" >Subscribe</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Tabled-Papers" class="nav-link">
+                                                                                    Tabled Papers
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Tabled-Papers/Online-Tabled-Papers" class="nav-link">Online Tabled Papers</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Tabled-Papers/Registers-of-Tabled-Papers" class="nav-link">Registers of Legislative Assembly Tabled Papers Prior to September 2024</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Tabled-Papers/Tabling-Procedures-and-Guidelines" class="nav-link">Tabling Procedures and Guidelines</a>
+<a href="https://www.parliament.qld.gov.au/Visit-and-learn/Have-Your-Say/Subscribe" class="nav-link" >Subscribe </a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Procedures" class="nav-link">
+                                                                                    Procedures
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Mega-Menu/WorkoftheAssembly_Meganmenu.ashx?h=250&amp;w=470&amp;la=en&amp;hash=E69A4D868A33304A0ECFA5BEF96D1DA2" class="img-fluid" alt="Legislative Assembly" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-aaa74624-1612-43bf-92a6-7103e3bb9925"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle workCommittees"
+                                    title="Work of committees"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Work of committees
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu workCommittees"
+                                     aria-labelledby="#nav-item-button-aaa74624-1612-43bf-92a6-7103e3bb9925">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Work-of-Committees" style="color: #ffffff !important; text-decoration: none !important">Work of committees</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                Committees investigate specific issues and proposed legislation, and report back to the Parliament. Find information on current and past committees here, including areas of responsibility, how they work, their activities, and how you can get involved in the committee process.  
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Upcoming-Committee-Business" class="nav-link">
+                                                                                    Upcoming Committee Business
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Introduction" class="nav-link">
+                                                                                    About Committees
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-Committees/Introduction/History" class="nav-link">History</a>
+                                                                                                    <a href="/Work-of-Committees/Introduction/What-is-Parliamentary-Committee" class="nav-link">What is a Parliamentary Committee</a>
+                                                                                                    <a href="/Work-of-Committees/Introduction/Membership-and-Operation" class="nav-link">Portfolio Committees - Membership and Operation</a>
+                                                                                                    <a href="/Work-of-Committees/Introduction/Survey" class="nav-link">Engagement Survey</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/ticket-sales-open" class="nav-link">
+                                                                                    Training Seminar - Committees@Work
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Committees" class="nav-link">
+                                                                                    Committees (10)
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=164" title="Committee of the Legislative Assembly" target="_self" alt="Committee of the Legislative Assembly" class="nav-link">
+                                                                                                Committee of the Legislative Assembly
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=269" title="Education, Arts and Communities Committee" target="_self" alt="Education, Arts and Communities Committee" class="nav-link">
+                                                                                                Education, Arts and Communities Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=168" title="Ethics Committee" target="_self" alt="Ethics Committee" class="nav-link">
+                                                                                                Ethics Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=277" title="Governance, Energy and Finance Committee" target="_self" alt="Governance, Energy and Finance Committee" class="nav-link">
+                                                                                                Governance, Energy and Finance Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=274" title="Health, Environment and Innovation Committee" target="_self" alt="Health, Environment and Innovation Committee" class="nav-link">
+                                                                                                Health, Environment and Innovation Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=275" title="Justice, Integrity and Community Safety Committee" target="_self" alt="Justice, Integrity and Community Safety Committee" class="nav-link">
+                                                                                                Justice, Integrity and Community Safety Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=267" title="Local Government, Small Business and Customer Service Committee" target="_self" alt="Local Government, Small Business and Customer Service Committee" class="nav-link">
+                                                                                                Local Government, Small Business and Customer Service Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=171" title="Parliamentary Crime and Corruption Committee" target="_self" alt="Parliamentary Crime and Corruption Committee" class="nav-link">
+                                                                                                Parliamentary Crime and Corruption Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=270" title="Primary Industries and Resources Committee" target="_self" alt="Primary Industries and Resources Committee" class="nav-link">
+                                                                                                Primary Industries and Resources Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=272" title="State Development, Infrastructure and Works Committee" target="_self" alt="State Development, Infrastructure and Works Committee" class="nav-link">
+                                                                                                State Development, Infrastructure and Works Committee
+                                                                                            </a>
+
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Committees-Glossary" class="nav-link">
+                                                                                    Committees Glossary
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Estimates-Hearings" class="nav-link">
+                                                                                    Estimates Hearings
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-Committees/Estimates-Hearings/Former-Estimates-Hearing" class="nav-link">Former Estimates Hearings</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Inquiries" class="nav-link">
+                                                                                    Inquiries
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Live-and-Archived-Broadcasts" class="nav-link">
+                                                                                    Live and Archived Broadcasts
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live" class="nav-link" rel="noopener noreferrer" target="_blank" >Live Committee Broadcast</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/search?t=Committee&amp;nf=committee" class="nav-link" rel="noopener noreferrer" target="_blank" >Archived Committee Broadcasts</a><a href="/Work-of-the-Assembly/Live-and-Archived-Broadcasts/Terms-and-Conditions" class="nav-link" >Terms and Conditions</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Publications" class="nav-link">
+                                                                                    Publications
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Guidelines" class="nav-link">
+                                                                                    Guidelines
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="https://www.parliament.qld.gov.au/Visit-and-learn/Have-Your-Say/Subscribe" class="nav-link" >Subscribe</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Former-Committees" class="nav-link">
+                                                                                    Former Committees (67)
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/30-Year-Release" class="nav-link">
+                                                                                    30 Year Release
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Past-Alert-Digest-and-Legislation-Alert-Indexes" class="nav-link">
+                                                                                    Past Alert Digest and Legislation Alert Indexes
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Ten-Year-Anniversary" class="nav-link">
+                                                                                    Ten Year Anniversary
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Files/Project/QPS/Homepage-MegaMenu/Work-of-Committees.ashx?h=250&amp;w=470&amp;la=en&amp;hash=8BF96C4E35BE96E8B8CD842E957D105A" class="img-fluid" alt="Work of Committees" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-27b79b38-966f-4175-80ea-77a48f13e975"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle members"
+                                    title="Members"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Members
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu members"
+                                     aria-labelledby="#nav-item-button-27b79b38-966f-4175-80ea-77a48f13e975">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Members" style="color: #ffffff !important; text-decoration: none !important">Members</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                There are currently 93 MPs, each representing one of Queensland’s 93 electorates. Each Member is elected for a four year term. Find details for current and former members here.
+
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Members/Current-Members" class="nav-link">
+                                                                                    Current Members (including Ministers and shadow Ministers)
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Members/Current-Members/Member-List" class="nav-link">Member List</a>
+                                                                                                    <a href="/Members/Current-Members/Full-Mailing-Lists" class="nav-link">Full Mailing List</a>
+<a href="/Members/Current-Members/Register-of-Members-Interests" class="nav-link" >Register of Members&#39; Interests</a>                                                                                                    <a href="/Members/Current-Members/Parliamentary-Friends-Of-Groups" class="nav-link">&#39;Parliamentary Friends of&#39; Groups</a>
+<a href="/Global/Search?index=qps_speeches_index" class="nav-link" >Member Speeches</a>                                                                                                    <a href="/Members/Current-Members/Office-of-the-Leader-of-the-Opposition" class="nav-link">Office of the Leader of the Opposition</a>
+                                                                                                    <a href="/Members/Current-Members/Shadow-Minister-Lobbyist-Meetings" class="nav-link">Shadow Minister Lobbyist Meetings</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Members/Former-Members" class="nav-link">
+                                                                                    Former Members
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Members/Former-Members/Former-Members-Register" class="nav-link">Former Members Register</a>
+                                                                                                    <a href="/Members/Former-Members/Contacting-Former-Members" class="nav-link">Contacting Former Members and Association</a>
+                                                                                                    <a href="/Members/Former-Members/Members-of-the-first-Parliament" class="nav-link">Members of the first Parliament</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Members/Members-and-Former-Members-Entitlements" class="nav-link">
+                                                                                    Members&#39; and Former Members&#39; Entitlements
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Mega-Menu/Members_OfficialPhoto_megamenu.ashx?h=250&amp;w=470&amp;la=en&amp;hash=C7725FBEAF5BCED9D1EF100D3E8CF457" class="img-fluid" alt="Image of all members in Legislative Assembly taken above from media gallery" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-96c5a80a-5f5e-4d35-a8f3-63e0b9511597"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle functionVenues"
+                                    title="Events and functions"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Events and functions
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu functionVenues"
+                                     aria-labelledby="#nav-item-button-96c5a80a-5f5e-4d35-a8f3-63e0b9511597">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Events-and-functions" style="color: #ffffff !important; text-decoration: none !important">Events and functions</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                Parliament House is Brisbane’s leading heritage venue. Find out more about visiting Parliament House, our latest events and exclusive venues available for private hire. 
+
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="https://qldparliamentdining.com.au/" class="nav-link" >Visit our dedicated Events &amp; Dining website.</a>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Files/Project/QPS/Homepage-MegaMenu/Cellar.ashx?h=400&amp;w=1200&amp;la=en&amp;hash=69765A485C05B1E51FF1E266BB83A681" class="img-fluid" alt="Cellar" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-8f6b3da4-b96b-43db-8389-153ecdd624a3"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle visitLearn"
+                                    title="Careers"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Careers
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu visitLearn"
+                                     aria-labelledby="#nav-item-button-8f6b3da4-b96b-43db-8389-153ecdd624a3">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Careers" style="color: #ffffff !important; text-decoration: none !important">Careers</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                Careers at Queensland Parliament
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="/Careers" class="nav-link" >What we offer</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="https://smartjobs.qld.gov.au/jobtools/jncustomsearch.searchResults?in_organid=14904&amp;in_multi02_id=requirements.agencynumber&amp;in_multi02=%2215090%22" class="nav-link" rel="noopener noreferrer" target="_blank" title="Smartjobs" >Permanent/Contract Roles</a>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Careers/Casual-Roles-at-Parliament" class="nav-link">
+                                                                                    Casual Roles
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Careers/Graduate-Program" class="nav-link">
+                                                                                    Graduate Program
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+            </ul>
+    </div>
+</nav>
+    </header>
+    <main class="main" role="main">
+            <div class="banner-wrapper members">
+        <div class="banner-content centre">
+            <h1 class="banner-heading">Former Members Register</h1>
+            <div class="headingLine"></div>
+        </div>
+    </div>
+    <div class="breadcrumbs no-link-on-print">
+        <ul>
+            
+
+    <li>
+
+            <a href="/" title="Home" target="_self" alt="Home">
+                Home
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members" title="Members" target="_self" alt="Members">
+                Members
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Former-Members" title="Former Members" target="_self" alt="Former Members">
+                Former Members
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Former-Members/Former-Members-Register" title="Former Members Register" target="_self" alt="Former Members Register">
+                Former Members Register
+            </a>
+    </li>
+        </ul>
+    </div>
+
+
+
+<div class="">
+    <div class="row row-md2-equal-height-cols ">
+                <div class=" col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
+                    
+
+
+        <div class="secondary-nav">
+            <ul>
+                <li>
+                        <a href="/Members"
+       class="top-level-item  "
+       title="Members"
+       target="_self"
+       alt="Members">
+        Members
+    </a>
+
+
+                        <ul class="">
+
+                                    <li>
+                                            <a href="/Members/Current-Members"
+       class="second-level  "
+       title="Current Members (including Ministers and shadow Ministers)"
+       target="_self"
+       alt="Current Members (including Ministers and shadow Ministers)">
+        Current Members (including Ministers and shadow Ministers)
+    </a>
+
+
+                                    </li>
+                                    <li>
+                                            <a href="/Members/Former-Members"
+       class="second-level  "
+       title="Former Members"
+       target="_self"
+       alt="Former Members">
+        Former Members
+    </a>
+
+
+                                            <ul class="">
+
+                                                        <li>
+                                                                <a href="/Members/Former-Members/Former-Members-Register"
+       class="third-level  current-item"
+       title="Former Members Register"
+       target="_self"
+       alt="Former Members Register">
+        Former Members Register
+    </a>
+
+
+                                                                <ul class="current-item-children">
+
+                                                                </ul>
+                                                        </li>
+                                                        <li>
+                                                                <a href="/Members/Former-Members/Contacting-Former-Members"
+       class="third-level  "
+       title="Contacting Former Members and Association"
+       target="_self"
+       alt="Contacting Former Members and Association">
+        Contacting Former Members and Association
+    </a>
+
+
+                                                        </li>
+                                                        <li>
+                                                                <a href="/Members/Former-Members/Members-of-the-first-Parliament"
+       class="third-level  "
+       title="Members of the first Parliament"
+       target="_self"
+       alt="Members of the first Parliament">
+        Members of the first Parliament
+    </a>
+
+
+                                                        </li>
+                                            </ul>
+                                    </li>
+                                    <li>
+                                            <a href="/Members/Members-and-Former-Members-Entitlements"
+       class="second-level  "
+       title="Members&#39; and Former Members&#39; Entitlements"
+       target="_self"
+       alt="Members&#39; and Former Members&#39; Entitlements">
+        Members&#39; and Former Members&#39; Entitlements
+    </a>
+
+
+                                    </li>
+                        </ul>
+                </li>
+            </ul>
+        </div>
+
+                </div>
+                <div class=" col-lg-9 col-md-12 col-sm-12 col-xs-12 ">
+                    
+
+
+<div class="container">
+    <div class="row row-md2-equal-height-cols ">
+                <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    
+
+    <div class="row">
+        <h2 class="col-md-6 col-sm-12">Former Members Register</h2>
+    </div>
+    <section class="former-members">
+        <div class="filters-form">
+            
+            <button class="filters-form__form-collapse-button js-former-members-form-collapse-button filters-form__title" data-toggle="collapse"
+                    data-target="#former-members-form">
+                Search Former Members
+                <span class="filters-form__form-collapse-button__chevron"></span>
+            </button>
+            <form id="former-members-form" class="filters-form__form js-former-members-form collapse show">
+                <fieldset>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label for="former-members-input-name" class="filters-form__label">
+                                Name:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <input type="text" id="former-members-input-name" class="form-control js-former-members-input-name" name="FormerMemberCombinedName">
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-house" for="former-members-input-house" class="filters-form__label">
+                                House:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <select aria-describedby="former-members-label-house" aria-multiselectable="false" class="filters-form__drop-down form-control js-former-members-input-house" form="former-members-form" id="House" name="House"><option value="">Both Houses</option>
+<option value="LegislativeAssembly">Legislative Assembly</option>
+<option value="LegislativeCouncil">Legislative Council</option>
+</select>
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-party" for="former-members-input-party" class="filters-form__label">
+                                Party:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <select aria-describedby="former-members-label-party" aria-multiselectable="false" class="filters-form__drop-down form-control js-former-members-input-party" form="former-members-form" id="Party" name="Party"><option value="">Select to refine search by party</option>
+<option value="Andrew Fisher Labor">Andrew Fisher Labor</option>
+<option value="Australian Labor Party">Australian Labor Party</option>
+<option value="City Country Alliance Queensland">City Country Alliance Queensland</option>
+<option value="Communist">Communist</option>
+<option value="Country and Northern Country Party">Country and Northern Country Party</option>
+<option value="Country and Progressive National Party">Country and Progressive National Party</option>
+<option value="Country Party">Country Party</option>
+<option value="Country-National">Country-National</option>
+<option value="Democratic Labor Party">Democratic Labor Party</option>
+<option value="Farmer&#39;s Representive">Farmer&#39;s Representive</option>
+<option value="Frank Barnes Labor">Frank Barnes Labor</option>
+<option value="Independent">Independent</option>
+<option value="Independent Democrat">Independent Democrat</option>
+<option value="Independent Labor">Independent Labor</option>
+<option value="Independent Liberal">Independent Liberal</option>
+<option value="Independent Opposition">Independent Opposition</option>
+<option value="Katter&#39;s Australian Party">Katter&#39;s Australian Party</option>
+<option value="King O&#39;Malley Labor">King O&#39;Malley Labor</option>
+<option value="Liberal National Party">Liberal National Party</option>
+<option value="Liberal Party">Liberal Party</option>
+<option value="Ministerialist">Ministerialist</option>
+<option value="National Party">National Party</option>
+<option value="Nationalist">Nationalist</option>
+<option value="None">None</option>
+<option value="North Queensland First">North Queensland First</option>
+<option value="North Queensland Labor Party">North Queensland Labor Party</option>
+<option value="North Queensland Party">North Queensland Party</option>
+<option value="Northern Country Party">Northern Country Party</option>
+<option value="One Nation Party">One Nation Party</option>
+<option value="One Nation Queensland Division">One Nation Queensland Division</option>
+<option value="Opposition">Opposition</option>
+<option value="Palmer United Party">Palmer United Party</option>
+<option value="Pauline Hanson&#39;s One Nation">Pauline Hanson&#39;s One Nation</option>
+<option value="Primary Producers Candidate">Primary Producers Candidate</option>
+<option value="Protestant Labor">Protestant Labor</option>
+<option value="Queensland Farmer&#39;s Union">Queensland Farmer&#39;s Union</option>
+<option value="Queensland Greens">Queensland Greens</option>
+<option value="Queensland Labor Party">Queensland Labor Party</option>
+<option value="Queensland People&#39;s Party">Queensland People&#39;s Party</option>
+<option value="Queensland United Party">Queensland United Party</option>
+<option value="The Queensland Party">The Queensland Party</option>
+<option value="United Australia Party">United Australia Party</option>
+</select>
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-electorate" for="former-members-input-electorate" class="filters-form__label">
+                                Electorate:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <select aria-describedby="former-members-label-electorate" aria-multiselectable="false" class="filters-form__drop-down form-control js-former-members-input-electorate" form="former-members-form" id="Electorate" name="Electorate"><option value="">Select to refine search by electorate</option>
+<option value="Albert">Albert</option>
+<option value="Algester">Algester</option>
+<option value="Archerfield">Archerfield</option>
+<option value="Ashgrove">Ashgrove</option>
+<option value="Aspley">Aspley</option>
+<option value="Aubigny">Aubigny</option>
+<option value="Auburn">Auburn</option>
+<option value="Balonne">Balonne</option>
+<option value="Barambah">Barambah</option>
+<option value="Barcoo">Barcoo</option>
+<option value="Baroona">Baroona</option>
+<option value="Barron River">Barron River</option>
+<option value="Beaudesert">Beaudesert</option>
+<option value="Belmont">Belmont</option>
+<option value="Belyando">Belyando</option>
+<option value="Blackall">Blackall</option>
+<option value="Bowen">Bowen</option>
+<option value="Bremer">Bremer</option>
+<option value="Brisbane">Brisbane</option>
+<option value="Brisbane Central">Brisbane Central</option>
+<option value="Brisbane City">Brisbane City</option>
+<option value="Brisbane North">Brisbane North</option>
+<option value="Brisbane South">Brisbane South</option>
+<option value="Broadsound">Broadsound</option>
+<option value="Broadwater">Broadwater</option>
+<option value="Buderim">Buderim</option>
+<option value="Bulimba">Bulimba</option>
+<option value="Bulloo">Bulloo</option>
+<option value="Bundaberg">Bundaberg</option>
+<option value="Bundamba">Bundamba</option>
+<option value="Buranda">Buranda</option>
+<option value="Burdekin">Burdekin</option>
+<option value="Burke">Burke</option>
+<option value="Burleigh">Burleigh</option>
+<option value="Burnett">Burnett</option>
+<option value="Burrum">Burrum</option>
+<option value="Caboolture">Caboolture</option>
+<option value="Cairns">Cairns</option>
+<option value="Callide">Callide</option>
+<option value="Caloundra">Caloundra</option>
+<option value="Cambooya">Cambooya</option>
+<option value="Capalaba">Capalaba</option>
+<option value="Carnarvon">Carnarvon</option>
+<option value="Carpentaria">Carpentaria</option>
+<option value="Charters Towers">Charters Towers</option>
+<option value="Chatsworth">Chatsworth</option>
+<option value="Chermside">Chermside</option>
+<option value="Chillagoe">Chillagoe</option>
+<option value="Clayfield">Clayfield</option>
+<option value="Clermont">Clermont</option>
+<option value="Cleveland">Cleveland</option>
+<option value="Condamine">Condamine</option>
+<option value="Cook">Cook</option>
+<option value="Cooper">Cooper</option>
+<option value="Cooroora">Cooroora</option>
+<option value="Coorparoo">Coorparoo</option>
+<option value="Crows Nest">Crows Nest</option>
+<option value="Croydon">Croydon</option>
+<option value="Cunningham">Cunningham</option>
+<option value="Currumbin">Currumbin</option>
+<option value="Dalby">Dalby</option>
+<option value="Darling Downs">Darling Downs</option>
+<option value="Darlington">Darlington</option>
+<option value="Drayton">Drayton</option>
+<option value="Drayton &amp; Toowoomba">Drayton &amp; Toowoomba</option>
+<option value="Eacham">Eacham</option>
+<option value="East Moreton">East Moreton</option>
+<option value="East Toowoomba">East Toowoomba</option>
+<option value="Eastern Downs">Eastern Downs</option>
+<option value="Enoggera">Enoggera</option>
+<option value="Everton">Everton</option>
+<option value="Fassifern">Fassifern</option>
+<option value="Ferny Grove">Ferny Grove</option>
+<option value="Fitzroy">Fitzroy</option>
+<option value="Flinders">Flinders</option>
+<option value="Fortitude Valley">Fortitude Valley</option>
+<option value="Gaven">Gaven</option>
+<option value="Gladstone">Gladstone</option>
+<option value="Glass House">Glass House</option>
+<option value="Greenslopes">Greenslopes</option>
+<option value="Gregory">Gregory</option>
+<option value="Gympie">Gympie</option>
+<option value="Hamilton">Hamilton</option>
+<option value="Hamlet Of Fortitude Valley">Hamlet Of Fortitude Valley</option>
+<option value="Haughton">Haughton</option>
+<option value="Hawthorne">Hawthorne</option>
+<option value="Herbert">Herbert</option>
+<option value="Hervey Bay">Hervey Bay</option>
+<option value="Hinchinbrook">Hinchinbrook</option>
+<option value="Inala">Inala</option>
+<option value="Indooroopilly">Indooroopilly</option>
+<option value="Ipswich">Ipswich</option>
+<option value="Ipswich East">Ipswich East</option>
+<option value="Ipswich West">Ipswich West</option>
+<option value="Isis">Isis</option>
+<option value="Ithaca">Ithaca</option>
+<option value="Kallangur">Kallangur</option>
+<option value="Kawana">Kawana</option>
+<option value="Kedron">Kedron</option>
+<option value="Kelvin Grove">Kelvin Grove</option>
+<option value="Kennedy">Kennedy</option>
+<option value="Keppel">Keppel</option>
+<option value="Kurilpa">Kurilpa</option>
+<option value="Kurwongbah">Kurwongbah</option>
+<option value="Landsborough">Landsborough</option>
+<option value="Leichhardt">Leichhardt</option>
+<option value="Lockyer">Lockyer</option>
+<option value="Logan">Logan</option>
+<option value="Lytton">Lytton</option>
+<option value="Mackay">Mackay</option>
+<option value="Mackenzie">Mackenzie</option>
+<option value="Manly">Manly</option>
+<option value="Mansfield">Mansfield</option>
+<option value="Maranoa">Maranoa</option>
+<option value="Maree">Maree</option>
+<option value="Marodian">Marodian</option>
+<option value="Maryborough">Maryborough</option>
+<option value="Merrimac">Merrimac</option>
+<option value="Merthyr">Merthyr</option>
+<option value="Mirani">Mirani</option>
+<option value="Mitchell">Mitchell</option>
+<option value="Moggill">Moggill</option>
+<option value="Mooloolah">Mooloolah</option>
+<option value="Morayfield">Morayfield</option>
+<option value="Moreton">Moreton</option>
+<option value="Mount Coot-tha">Mount Coot-tha</option>
+<option value="Mount Gravatt">Mount Gravatt</option>
+<option value="Mount Isa">Mount Isa</option>
+<option value="Mount Morgan">Mount Morgan</option>
+<option value="Mount Ommaney">Mount Ommaney</option>
+<option value="Mourilyan">Mourilyan</option>
+<option value="Mudgeeraba">Mudgeeraba</option>
+<option value="Mulgrave">Mulgrave</option>
+<option value="Mundingburra">Mundingburra</option>
+<option value="Murilla">Murilla</option>
+<option value="Murrumba">Murrumba</option>
+<option value="Musgrave">Musgrave</option>
+<option value="Nanango">Nanango</option>
+<option value="Nash">Nash</option>
+<option value="Nerang">Nerang</option>
+<option value="Nicklin">Nicklin</option>
+<option value="Noosa">Noosa</option>
+<option value="Norman">Norman</option>
+<option value="Normanby">Normanby</option>
+<option value="North Brisbane">North Brisbane</option>
+<option value="North Toowoomba">North Toowoomba</option>
+<option value="Northern Downs">Northern Downs</option>
+<option value="Nudgee">Nudgee</option>
+<option value="Nundah">Nundah</option>
+<option value="Oodgeroo">Oodgeroo</option>
+<option value="Oxley">Oxley</option>
+<option value="Paddington">Paddington</option>
+<option value="Peak Downs">Peak Downs</option>
+<option value="Pine Rivers">Pine Rivers</option>
+<option value="Pittsworth">Pittsworth</option>
+<option value="Port Curtis">Port Curtis</option>
+<option value="Pumicestone">Pumicestone</option>
+<option value="Queenton">Queenton</option>
+<option value="Ravenswood">Ravenswood</option>
+<option value="Redcliffe">Redcliffe</option>
+<option value="Redlands">Redlands</option>
+<option value="Robina">Robina</option>
+<option value="Rockhampton">Rockhampton</option>
+<option value="Rockhampton North">Rockhampton North</option>
+<option value="Rockhampton South">Rockhampton South</option>
+<option value="Roma">Roma</option>
+<option value="Rosewood">Rosewood</option>
+<option value="Salisbury">Salisbury</option>
+<option value="Sandgate">Sandgate</option>
+<option value="Sherwood">Sherwood</option>
+<option value="Somerset">Somerset</option>
+<option value="South Brisbane">South Brisbane</option>
+<option value="South Coast">South Coast</option>
+<option value="Southern Downs">Southern Downs</option>
+<option value="Southport">Southport</option>
+<option value="Springsure">Springsure</option>
+<option value="Springwood">Springwood</option>
+<option value="Stafford">Stafford</option>
+<option value="Stanley">Stanley</option>
+<option value="Stretton">Stretton</option>
+<option value="Sunnybank">Sunnybank</option>
+<option value="Surfers Paradise">Surfers Paradise</option>
+<option value="Tablelands">Tablelands</option>
+<option value="The Tableland">The Tableland</option>
+<option value="Thuringowa">Thuringowa</option>
+<option value="Toombul">Toombul</option>
+<option value="Toowong">Toowong</option>
+<option value="Toowoomba">Toowoomba</option>
+<option value="Toowoomba East">Toowoomba East</option>
+<option value="Toowoomba North">Toowoomba North</option>
+<option value="Toowoomba South">Toowoomba South</option>
+<option value="Toowoomba West">Toowoomba West</option>
+<option value="Town Of Brisbane">Town Of Brisbane</option>
+<option value="Town Of South Brisbane">Town Of South Brisbane</option>
+<option value="Townsville">Townsville</option>
+<option value="Townsville East">Townsville East</option>
+<option value="Townsville North">Townsville North</option>
+<option value="Townsville South">Townsville South</option>
+<option value="Townsville West">Townsville West</option>
+<option value="Warrego">Warrego</option>
+<option value="Warwick">Warwick</option>
+<option value="Waterford">Waterford</option>
+<option value="Wavell">Wavell</option>
+<option value="West Moreton">West Moreton</option>
+<option value="Western Downs">Western Downs</option>
+<option value="Whitsunday">Whitsunday</option>
+<option value="Wickham">Wickham</option>
+<option value="Wide Bay">Wide Bay</option>
+<option value="Windsor">Windsor</option>
+<option value="Wolston">Wolston</option>
+<option value="Woodridge">Woodridge</option>
+<option value="Woolloongabba">Woolloongabba</option>
+<option value="Woothakata">Woothakata</option>
+<option value="Wynnum">Wynnum</option>
+<option value="Yeerongpilly">Yeerongpilly</option>
+<option value="Yeronga">Yeronga</option>
+</select>
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-representation-years" class="filters-form__label">
+                                Representation Years:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <div class="input-group input-daterange js-former-members-input-container-representation-years">
+                                <input type="text" name="RepresentationYearsFrom" class="form-control js-former-members-input-representation-years-input-from" value="" aria-label="Representation Year (From)" />
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">to</span>
+                                </div>
+                                <input type="text" name="RepresentationYearsTo" class="form-control js-former-members-input-representation-years-input-to" value="" aria-label="Representation Year (To)" />
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-date-of-birth" class="filters-form__label">
+                                Date of Birth:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <div class="input-group input-daterange js-former-members-input-container-date-of-birth">
+                                <input type="text" name="DateOfBirthFrom" class="form-control js-former-members-input-date-of-birth-input-from" value="" aria-label="Date of Birth (From)" />
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">to</span>
+                                </div>
+                                <input type="text" name="DateOfBirthTo" class="form-control js-former-members-input-date-of-birth-input-to" value="" aria-label="Date of Birth (To)" />
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-country-of-birth" for="former-members-input-country-of-birth" class="filters-form__label">
+                                Country of Birth:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <select aria-describedby="former-members-label-country-of-birth" aria-multiselectable="false" class="filters-form__drop-down form-control js-former-members-input-country-of-birth" form="former-members-form" id="CountryOfBirth" name="CountryOfBirth"><option value="">Select to refine search by country of birth</option>
+<option value="Australia">Australia</option>
+<option value="Belfast, Ireland">Belfast, Ireland</option>
+<option value="Belgium">Belgium</option>
+<option value="British Guiana">British Guiana</option>
+<option value="British West Indies">British West Indies</option>
+<option value="Channel Islands">Channel Islands</option>
+<option value="China">China</option>
+<option value="East Africa">East Africa</option>
+<option value="England">England</option>
+<option value="France">France</option>
+<option value="Germany">Germany</option>
+<option value="Great Britain">Great Britain</option>
+<option value="Greece">Greece</option>
+<option value="India">India</option>
+<option value="Ireland">Ireland</option>
+<option value="Italy">Italy</option>
+<option value="Japan">Japan</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Papua New Guinea">Papua New Guinea</option>
+<option value="Poland">Poland</option>
+<option value="Prussia">Prussia</option>
+<option value="Republic of Ireland">Republic of Ireland</option>
+<option value="Russia">Russia</option>
+<option value="Scotland">Scotland</option>
+<option value="South Africa">South Africa</option>
+<option value="South Wales">South Wales</option>
+<option value="Switzerland">Switzerland</option>
+<option value="The Netherlands">The Netherlands</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="United States of America">United States of America</option>
+<option value="Wales">Wales</option>
+<option value="West Germany">West Germany</option>
+</select>
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-gender" for="former-members-input-gender" class="filters-form__label">
+                                Gender:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <select aria-describedby="former-members-label-gender" aria-multiselectable="false" class="filters-form__drop-down form-control js-former-members-input-gender" form="former-members-form" id="Gender" name="Gender"><option value="">Select to refine search by gender</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select>
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-occupation" for="former-members-input-occupation" class="filters-form__label">
+                                Occupation:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <input type="text" id="former-members-input-occupation" class="form-control js-former-members-input-occupation" name="Occupation">
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-religion" for="former-members-input-religion" class="filters-form__label">
+                                Religion:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <select aria-describedby="former-members-label-religion" aria-multiselectable="false" class="filters-form__drop-down form-control js-former-members-input-religion" form="former-members-form" id="Religion" name="Religion"><option value="">Select to refine search by religion</option>
+<option value="Agnostic">Agnostic</option>
+<option value="Anglican">Anglican</option>
+<option value="Assembly of God">Assembly of God</option>
+<option value="Atheist">Atheist</option>
+<option value="Australian Christian Churches">Australian Christian Churches</option>
+<option value="Baptist">Baptist</option>
+<option value="Baptist/Methodist">Baptist/Methodist</option>
+<option value="Catholic">Catholic</option>
+<option value="Catholic Apostolic">Catholic Apostolic</option>
+<option value="Christian">Christian</option>
+<option value="Christian Science">Christian Science</option>
+<option value="Christian Scientist">Christian Scientist</option>
+<option value="Church of Christ">Church of Christ</option>
+<option value="Church of England">Church of England</option>
+<option value="Church Of England">Church Of England</option>
+<option value="Church of England; Salvation Army">Church of England; Salvation Army</option>
+<option value="Congregational">Congregational</option>
+<option value="Congregationalist">Congregationalist</option>
+<option value="Greek Orthodox">Greek Orthodox</option>
+<option value="Jewish">Jewish</option>
+<option value="Lutheran">Lutheran</option>
+<option value="Lutheran later Church of England">Lutheran later Church of England</option>
+<option value="Methodist">Methodist</option>
+<option value="Methodist/Presbyterian">Methodist/Presbyterian</option>
+<option value="New Jerusalem Ch. (Swedenborg)">New Jerusalem Ch. (Swedenborg)</option>
+<option value="No religion">No religion</option>
+<option value="Poole Independent Church">Poole Independent Church</option>
+<option value="Presbyterian">Presbyterian</option>
+<option value="Presbyterian, later Baptist">Presbyterian, later Baptist</option>
+<option value="Primitive Methodist">Primitive Methodist</option>
+<option value="Protestant">Protestant</option>
+<option value="Quaker">Quaker</option>
+<option value="Rationalist">Rationalist</option>
+<option value="Roman catholic">Roman catholic</option>
+<option value="Roman Catholic">Roman Catholic</option>
+<option value="Seventh-Day Adventist">Seventh-Day Adventist</option>
+<option value="Society of the New Church">Society of the New Church</option>
+<option value="Theosophist">Theosophist</option>
+<option value="United Free Methodist">United Free Methodist</option>
+<option value="Uniting">Uniting</option>
+<option value="Uniting Church">Uniting Church</option>
+<option value="Wesleyan">Wesleyan</option>
+</select>
+                        </div>
+                    </div>
+                    
+                    <div class="filters-form__row">
+                        <div class="filters-form__container col-lg-3 col-md-4 col-sm-12">
+                            <label id="former-members-label-keywords" for="former-members-input-keywords" class="filters-form__label">
+                                Keywords:
+                            </label>
+                        </div>
+                        <div class="filters-form__container col-md col-sm-12">
+                            <input type="text" id="former-members-input-keywords" class="form-control js-former-members-input-keywords" name="Keywords">
+                        </div>
+                    </div>
+                    
+                    <input type="hidden" value="5fdd430c-8a9f-4db4-b081-1afa6cf1e1a4" name="DataSourceItemGuid" class="js-former-members-input-datasource" />
+                    
+                    <div class="filters-form__buttons former-members__buttons">
+                        <button class="filters-form__button former-members__submit-button btn btn-primary js-former-members-button-search"
+                                type="submit">
+                            Search Former Members Register
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="former-members__or-text">
+            - OR -
+        </div>
+
+        <ul class="glossary">
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="true" data-letter="A">A</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="B">B</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="C">C</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="D">D</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="E">E</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="F">F</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="G">G</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="H">H</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="I">I</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="J">J</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="K">K</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="L">L</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="M">M</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="N">N</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="O">O</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="P">P</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="Q">Q</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="R">R</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="S">S</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="T">T</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="U">U</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="V">V</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="W">W</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="X">X</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="Y">Y</button></li>
+            <li class="glossary__letter"><button type="button" class="glossary__link js-former-members-letter-button" aria-selected="false" data-letter="Z">Z</button></li>
+        </ul>
+        <div class="former-members__results js-former-members-results">
+                <div class="data-table-wrapper table-responsive">
+        <table class="js-data-table table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Member</th>
+                    <th>Electorate</th>
+                    <th>Period of Representation</th>
+                    <th>Death</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=2129453942" target="_blank">ADAIR, Herbert Arthur</a></td>
+                        <td>Cook</td>
+                        <td>7 Mar 1953 - 17 May 1969</td>
+                        <td>21 October 1994</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=134647663" target="_blank">ADAMS, Walter </a></td>
+                        <td>Bundaberg, Mulgrave</td>
+                        <td>10 Jul 1886 - 15 May 1892</td>
+                        <td>15 May 1892</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1712941948" target="_blank">ADAMSON, CBE, John </a></td>
+                        <td>Maryborough, Rockhampton</td>
+                        <td>18 May 1907 - 21 Mar 1917</td>
+                        <td>2 May 1922</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=450508374" target="_blank">AGNEW, George </a></td>
+                        <td>Nundah</td>
+                        <td>10 May 1888 - 21 Mar 1896</td>
+                        <td>19 December 1934</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=2104008752" target="_blank">AHEARN, Thomas Gipps</a></td>
+                        <td>Sandgate</td>
+                        <td>3 Aug 1957 - 28 May 1960</td>
+                        <td>10 March 2021</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=288952233" target="_blank">AHERN, Hon Michael John, AO</a></td>
+                        <td>Landsborough</td>
+                        <td>16 Mar 1968 - 6 May 1990</td>
+                        <td>11 August 2023</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1451086627" target="_blank">AIKEN, John Albert</a></td>
+                        <td>Warrego</td>
+                        <td>17 May 1969 - 7 Dec 1974</td>
+                        <td>3 September 2016</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=711330189" target="_blank">AIKENS, Thomas </a></td>
+                        <td>Mundingburra, Townsville South</td>
+                        <td>15 Apr 1944 - 12 Nov 1977</td>
+                        <td>30 November 1985</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=560785681" target="_blank">AIREY, Peter </a></td>
+                        <td>Flinders, Legislative Council, South Brisbane</td>
+                        <td>13 Jul 1901 - 2 Oct 1909</td>
+                        <td>10 August 1950</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=616048884" target="_blank">AKERS, Robert George</a></td>
+                        <td>Pine Rivers</td>
+                        <td>7 Dec 1974 - 22 Oct 1983</td>
+                        <td>28 October 2006</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=572412085" target="_blank">ALAND, Robert </a></td>
+                        <td>Drayton &amp; Toowoomba</td>
+                        <td>14 Jan 1881 - 6 May 1893</td>
+                        <td>19 March 1904</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1827759896" target="_blank">ALISON, Gilbert </a></td>
+                        <td>Maryborough</td>
+                        <td>24 Jul 1971 - 2 Dec 1989</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1767485736" target="_blank">ALLAN, James </a></td>
+                        <td>Kurilpa, South Brisbane</td>
+                        <td>2 Oct 1909 - 22 May 1915</td>
+                        <td>26 January 1938</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=441596260" target="_blank">ALLAN, William </a></td>
+                        <td>Cunningham, Darling Downs, Legislative Council</td>
+                        <td>29 Nov 1881 - 19 Oct 1901</td>
+                        <td>19 October 1901</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=751308363" target="_blank">ALLEN, Barnett Francis Samuel</a></td>
+                        <td>Bulloo</td>
+                        <td>27 Mar 1909 - 27 Apr 1912</td>
+                        <td>18 October 1948</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1301598265" target="_blank">ALLPASS, Frederic James</a></td>
+                        <td>Condamine</td>
+                        <td>29 Apr 1950 - 7 Mar 1953</td>
+                        <td>5 April 1977</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=559190664" target="_blank">AMHURST, Francis Tyssen</a></td>
+                        <td>Bowen, Mackay</td>
+                        <td>14 May 1875 - 3 Jan 1881</td>
+                        <td>3 January 1881</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=941107425" target="_blank">ANDERSON, Mervyn John Reginald, OBE</a></td>
+                        <td>Toowoomba East, Toowoomba</td>
+                        <td>3 Aug 1957 - 28 May 1966</td>
+                        <td>14 November 1971</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=2070280238" target="_blank">ANDREW, Mr Stephen Seymour James</a></td>
+                        <td>Mirani</td>
+                        <td>25 Nov 2017 - 25 Oct 2024</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=389622491" target="_blank">ANNAND, James Douglas</a></td>
+                        <td>East Toowoomba, Toowoomba</td>
+                        <td>11 May 1929 - 11 May 1935</td>
+                        <td>7 August 1952</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1316724712" target="_blank">ANNEAR, John Thomas</a></td>
+                        <td>Legislative Council, Maryborough</td>
+                        <td>25 Jul 1884 - 28 May 1910</td>
+                        <td>28 May 1910</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1477100812" target="_blank">APLIN, William </a></td>
+                        <td>Legislative Council</td>
+                        <td>19 Oct 1880 - 18 Feb 1901</td>
+                        <td>18 February 1901</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1858304010" target="_blank">APPEL, Hon John George</a></td>
+                        <td>Albert</td>
+                        <td>5 Feb 1908 - 19 Mar 1929</td>
+                        <td>19 March 1929</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1776930433" target="_blank">ARCHER, Archibald </a></td>
+                        <td>Blackall, Rockhampton</td>
+                        <td>27 Jul 1867 - 4 Apr 1896</td>
+                        <td>10 February 1902</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1562473215" target="_blank">ARCHER, Edward Walker</a></td>
+                        <td>Normanby</td>
+                        <td>5 Mar 1914 - 22 May 1915</td>
+                        <td>1 July 1940</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1757952750" target="_blank">ARCHIBALD, John </a></td>
+                        <td>Legislative Council</td>
+                        <td>11 Mar 1897 - 20 May 1907</td>
+                        <td>20 May 1907</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=707725731" target="_blank">ARDILL, Leonard Arthur</a></td>
+                        <td>Archerfield, Salisbury</td>
+                        <td>1 Nov 1986 - 13 Jun 1998</td>
+                        <td>4 April 2014</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=710463344" target="_blank">ARMFIELD, Thomas Gummersal</a></td>
+                        <td>Musgrave</td>
+                        <td>22 May 1915 - 9 Oct 1920</td>
+                        <td>21 April 1931</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=6686750" target="_blank">ARMSTRONG, Roy Alexander</a></td>
+                        <td>Mulgrave</td>
+                        <td>23 Jul 1960 - 29 Nov 1980</td>
+                        <td>26 April 1991</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=887259786" target="_blank">ARMSTRONG, Hon William Drayton</a></td>
+                        <td>Lockyer</td>
+                        <td>13 May 1893 - 16 Mar 1918</td>
+                        <td>2 June 1936</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=1001759927" target="_blank">ATHERTON, Ernest Arthur</a></td>
+                        <td>Chillagoe</td>
+                        <td>11 May 1929 - 10 Jun 1932</td>
+                        <td>29 June 1954</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=738524952" target="_blank">ATKIN, Robert Travers</a></td>
+                        <td>Clermont, East Moreton</td>
+                        <td>1 Oct 1868 - 7 Mar 1872</td>
+                        <td>25 May 1872</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=322941367" target="_blank">ATTWOOD, Julie Maree</a></td>
+                        <td>Mount Ommaney</td>
+                        <td>13 Jun 1998 - 23 Mar 2012</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=470134865" target="_blank">AUSTIN, Brian Douglas</a></td>
+                        <td>Nicklin, Wavell</td>
+                        <td>12 Nov 1977 - 26 Oct 1989</td>
+                        <td></td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+
+        </div>
+    </section>
+
+
+                </div>
+
+    </div>
+</div>
+
+                </div>
+
+    </div>
+</div>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+            <div class="footer-primary-wrapper">
+        <nav role="navigation" class="footer-primary">
+            <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Visit-and-learn" title="Visit and learn" target="_self" alt="Visit and learn">
+                Visit and learn
+            </a>
+    </li>
+
+
+    <li>
+
+            <a href="/Visit-and-learn/Message-from-the-Speaker" title="Message from the Speaker" target="_self" alt="Message from the Speaker">
+                Message from the Speaker
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/About-Us" title="About Us" target="_self" alt="About Us">
+                About Us
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Visitors" title="Visitors" target="_self" alt="Visitors">
+                Visitors
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/VisitPublicGallery" title="Visit the Public Gallery " target="_self" alt="Visit the Public Gallery ">
+                Visit the Public Gallery 
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Visit-our-Gift-Shop" title="Visit our Gift Shop" target="_self" alt="Visit our Gift Shop">
+                Visit our Gift Shop
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Have-Your-Say" title="Have Your Say" target="_self" alt="Have Your Say">
+                Have Your Say
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Get-Involved" title="Get Involved" target="_self" alt="Get Involved">
+                Get Involved
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Education" title="Education and Learning" target="_self" alt="Education and Learning">
+                Education and Learning
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/History" title="History" target="_self" alt="History">
+                History
+            </a>
+    </li>
+    <li>
+
+<a href="https://collections.parliament.qld.gov.au/explore" class="" >Heritage Collections</a>    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Preservation-of-our-Heritage" title="Preservation of our Heritage" target="_self" alt="Preservation of our Heritage">
+                Preservation of our Heritage
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Regional-Sittings" title="Regional Sittings" target="_self" alt="Regional Sittings">
+                Regional Sittings
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/CPA-Australia-and-Pacific-Regional-Conference" title="CPA Australia and Pacific Regional Conference" target="_self" alt="CPA Australia and Pacific Regional Conference">
+                CPA Australia and Pacific Regional Conference
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Publications-and-Reports" title="Publications and Reports" target="_self" alt="Publications and Reports">
+                Publications and Reports
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Speakers-Corner" title="Speakers&#39; Corner " target="_self" alt="Speakers&#39; Corner ">
+                Speakers&#39; Corner 
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Opening-of-Parliament" title="Opening of the 58th Parliament" target="_self" alt="Opening of the 58th Parliament">
+                Opening of the 58th Parliament
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Annexe-Reparation" title="Parliamentary Annexe Reparation and Refurbishment" target="_self" alt="Parliamentary Annexe Reparation and Refurbishment">
+                Parliamentary Annexe Reparation and Refurbishment
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Contact-Us" title="Contact Us" target="_self" alt="Contact Us">
+                Contact Us
+            </a>
+    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Work-of-the-Assembly" title="Work of the Assembly" target="_self" alt="Work of the Assembly">
+                Work of the Assembly
+            </a>
+    </li>
+
+
+    <li>
+
+            <a href="/Work-of-the-Assembly/Whats-new" title="What&#39;s New" target="_self" alt="What&#39;s New">
+                What&#39;s New
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Sitting-Dates" title="Sitting Dates" target="_self" alt="Sitting Dates">
+                Sitting Dates
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Live-and-Archived-Broadcasts" title="Live and Archived Broadcasts" target="_self" alt="Live and Archived Broadcasts">
+                Live and Archived Broadcasts
+            </a>
+    </li>
+    <li>
+
+<a href="/Work-of-the-Assembly/Sitting-Dates/Latest-Sitting-Week" class="" >Daily Agenda (Notice Paper)</a>    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Record-of-Proceedings" title="Record of Proceedings (Hansard)" target="_self" alt="Record of Proceedings (Hansard)">
+                Record of Proceedings (Hansard)
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Citizens-Right-of-Reply" title="Citizen&#39;s Right of Reply" target="_self" alt="Citizen&#39;s Right of Reply">
+                Citizen&#39;s Right of Reply
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Petitions" title="Petitions" target="_self" alt="Petitions">
+                Petitions
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Bills-and-Legislation" title="Bills and Legislation" target="_self" alt="Bills and Legislation">
+                Bills and Legislation
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers" title="Questions on Notice and Answers" target="_self" alt="Questions on Notice and Answers">
+                Questions on Notice and Answers
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Tabled-Papers" title="Tabled Papers" target="_self" alt="Tabled Papers">
+                Tabled Papers
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Procedures" title="Procedures" target="_self" alt="Procedures">
+                Procedures
+            </a>
+    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Work-of-Committees" title="Work of committees" target="_self" alt="Work of committees">
+                Work of committees
+            </a>
+    </li>
+
+
+    <li>
+
+            <a href="/Work-of-Committees/Upcoming-Committee-Business" title="Upcoming Committee Business" target="_self" alt="Upcoming Committee Business">
+                Upcoming Committee Business
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Introduction" title="About Committees" target="_self" alt="About Committees">
+                About Committees
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/ticket-sales-open" title="Training Seminar - Committees@Work" target="_self" alt="Training Seminar - Committees@Work">
+                Training Seminar - Committees@Work
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Committees" title="Committees (10)" target="_self" alt="Committees (10)">
+                Committees (10)
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Committees-Glossary" title="Committees Glossary" target="_self" alt="Committees Glossary">
+                Committees Glossary
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Estimates-Hearings" title="Estimates Hearings" target="_self" alt="Estimates Hearings">
+                Estimates Hearings
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Inquiries" title="Inquiries" target="_self" alt="Inquiries">
+                Inquiries
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Live-and-Archived-Broadcasts" title="Live and Archived Broadcasts" target="_self" alt="Live and Archived Broadcasts">
+                Live and Archived Broadcasts
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Publications" title="Publications" target="_self" alt="Publications">
+                Publications
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Guidelines" title="Guidelines" target="_self" alt="Guidelines">
+                Guidelines
+            </a>
+    </li>
+    <li>
+
+<a href="https://www.parliament.qld.gov.au/Visit-and-learn/Have-Your-Say/Subscribe" class="" >Subscribe</a>    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Former-Committees" title="Former Committees (67)" target="_self" alt="Former Committees (67)">
+                Former Committees (67)
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/30-Year-Release" title="30 Year Release" target="_self" alt="30 Year Release">
+                30 Year Release
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Past-Alert-Digest-and-Legislation-Alert-Indexes" title="Past Alert Digest and Legislation Alert Indexes" target="_self" alt="Past Alert Digest and Legislation Alert Indexes">
+                Past Alert Digest and Legislation Alert Indexes
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Ten-Year-Anniversary" title="Ten Year Anniversary" target="_self" alt="Ten Year Anniversary">
+                Ten Year Anniversary
+            </a>
+    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Members" title="Members" target="_self" alt="Members">
+                Members
+            </a>
+    </li>
+
+
+    <li>
+
+            <a href="/Members/Current-Members" title="Current Members (including Ministers and shadow Ministers)" target="_self" alt="Current Members (including Ministers and shadow Ministers)">
+                Current Members (including Ministers and shadow Ministers)
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Former-Members" title="Former Members" target="_self" alt="Former Members">
+                Former Members
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Members-and-Former-Members-Entitlements" title="Members&#39; and Former Members&#39; Entitlements" target="_self" alt="Members&#39; and Former Members&#39; Entitlements">
+                Members&#39; and Former Members&#39; Entitlements
+            </a>
+    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+<a href="https://qldparliamentdining.com.au/" class="" >Events and functions</a>    </li>
+
+
+    <li>
+
+<a href="https://qldparliamentdining.com.au/" class="" >Visit our dedicated Events &amp; Dining website.</a>    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Careers" title="Careers" target="_self" alt="Careers">
+                Careers
+            </a>
+    </li>
+
+
+    <li>
+
+<a href="/Careers" class="" >What we offer</a>    </li>
+    <li>
+
+<a href="https://smartjobs.qld.gov.au/jobtools/jncustomsearch.searchResults?in_organid=14904&amp;in_multi02_id=requirements.agencynumber&amp;in_multi02=%2215090%22" class="" rel="noopener noreferrer" target="_blank" title="Smartjobs" >Permanent/Contract Roles</a>    </li>
+    <li>
+
+            <a href="/Careers/Casual-Roles-at-Parliament" title="Casual Roles" target="_self" alt="Casual Roles">
+                Casual Roles
+            </a>
+    </li>
+    <li>
+
+            <a href="/Careers/Graduate-Program" title="Graduate Program" target="_self" alt="Graduate Program">
+                Graduate Program
+            </a>
+    </li>
+                            </ul>
+                        </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <ul>
+                        <li>
+                            <a>Stay in touch</a>
+                        </li>
+                        <li>
+                                <div class="social-wrapper social-media-item">
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="/Global/Contact-Us" class="social-link" title="contact us" >                <i class="fas fa-envelope"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="/Global/Contact-Us" class="social-link" title="contact us" >                <i class="fas fa-phone"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="https://twitter.com/QueenslandParl1" class="social-link" rel="noopener noreferrer" target="_blank" title="Twitter" >                <i class="fab fa-twitter"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="https://www.facebook.com/QueenslandParliament/" class="social-link" rel="noopener noreferrer" target="_blank" title="Facebook" >                <i class="fab fa-facebook-f"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="https://www.linkedin.com/company/queensland-parliament/" class="social-link" rel="noopener noreferrer" target="_blank" title="LinkedIn" >                <i class="fab fa-linkedin"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="https://www.instagram.com/Queenslandparliament/" class="social-link" rel="noopener noreferrer" target="_blank" title="Instagram" >                <i class="fab fa-instagram"></i>
+</a>        </div>
+    </div>
+
+                        </li>
+                        <li><a href="/Visit-and-learn/How-Do-I-Get-Involved/Subscribe" class="btn btn-primary btn-block subscribe">Subscribe</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="footer-secondary-wrapper">
+        <nav role="navigation" class="footer-secondary">
+            <ul>
+    <li>
+
+            <a href="/Global/Sitemap" title="Sitemap" target="_self" alt="Sitemap">
+                Sitemap
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Glossary" title="Glossary" target="_self" alt="Glossary">
+                Glossary
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/FAQs" title="Frequently Asked Questions" target="_self" alt="Frequently Asked Questions">
+                Frequently Asked Questions
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Accessibility" title="Accessibility" target="_self" alt="Accessibility">
+                Accessibility
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Privacy-Statement" title="Privacy Statement" target="_self" alt="Privacy Statement">
+                Privacy Statement
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Copyright" title="Copyright" target="_self" alt="Copyright">
+                Copyright
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Disclaimer" title="Disclaimer" target="_self" alt="Disclaimer">
+                Disclaimer
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Parliamentary-Service" title="Parliamentary Service" target="_self" alt="Parliamentary Service">
+                Parliamentary Service
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Useful-Links" title="Useful Links" target="_self" alt="Useful Links">
+                Useful Links
+            </a>
+    </li>
+            </ul>
+        </nav>
+        <div class="footer-copyright">
+            Copyright © 2026 All rights reserved                                  
+        </div>
+        <div class="footer-copyright">
+            Warning - Aboriginal and Torres Strait Islander people are warned that this web site may contain images of deceased people.            
+        </div>
+    </div>
+
+    </footer>
+</div>
+
+    
+    <script src="/scripts/QPS.min.js"></script>
+    <script src="/scripts/moment.js"></script>
+    <script src="/scripts/daterangepicker.min.js"></script>
+    <script src="/scripts/QPS_Search_Redirect.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BP7125H1YV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BP7125H1YV');
+    </script>
+    <script>
+        var ttt_cnt = 0;
+        var ttt_tmr;
+
+        $().ready(function () {
+            ttt_tmr = setInterval(ttt_fn, 200);
+            //console.log("TTT");
+        });
+
+        function ttt_fn() {
+            //console.log("TTT fn fired #" + ttt_cnt);
+            ttt_cnt++;
+            if (typeof (InitPage) != 'undefined') {
+                ttt_cnt = 50;
+                InitPage();
+                //console.log("TTT IP called");
+            }
+            if (ttt_cnt >= 50)
+                clearInterval(ttt_tmr);
+        }
+    </script>
+    <script>
+        /**
+* Sort values alphabetically in select
+*/
+        $.fn.extend({
+            sortSelect(skipFirst) {
+               // let options = (skipFirst) ? this.find("option:not(:first)") : this.find("option"),
+                let options = (skipFirst) ? this.find("option:gt(0)") : this.find("option"),
+                    arr = options.map(function (_, o) { return { t: $(o).text(), v: o.value, s: $(o).prop('selected') }; }).get();
+
+                arr.sort((o1, o2) => { // sort select
+                    let t1 = o1.t.toLowerCase(),
+                        t2 = o2.t.toLowerCase();
+                    return t1 > t2 ? 1 : t1 < t2 ? -1 : 0;
+                });
+
+                options.each((i, o) => {
+                    o.value = arr[i].v;
+                    $(o).text(arr[i].t);
+                    if (arr[i].s) {
+                        $(o).attr('selected', 'selected').prop('selected', true);
+                    } else {
+                        $(o).removeAttr('selected');
+                        $(o).prop('selected', false);
+                    }
+                });
+            }
+        });
+        $().ready(function () {
+            if (typeof (InitPage) != 'undefined') {
+                InitPage();
+            }
+
+        });
+    </script>
+
+</body>
+</html>

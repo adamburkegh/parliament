@@ -33,12 +33,19 @@
             pkgs.bash
           ];
           extraReadwriteDirs = [ projectDir ];
+          extraReadonlyDirs = [
+            "${projectDir}/agent.py"
+            "${projectDir}/flake.nix"
+            "${projectDir}/flake.lock"
+            "${projectDir}/requirements.txt"
+          ];
           # No network combinator — agent has no network access
-          baseJailOptions = with jailed-agents.lib.${system}.combinators; [
+          baseJailOptions = 
+                with jailed-agents.lib.${system}.internals.jail.combinators; [
+            network     # needed to reach llama model server
             time-zone
             no-new-session
             mount-cwd
-            (readonly (noescape "/etc/resolv.conf"))
           ];
         };
 
@@ -61,7 +68,7 @@
               source .venv/bin/activate
             fi
 
-            export LLAMA_SERVER="http://172.30.82.251:8000/v1"
+            export LLAMA_SERVER="http://172.30.84.6:8000/v1"
             export PARLIAMENT_DIR="${projectDir}"
 
             echo "Parliament agent environment"

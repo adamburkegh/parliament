@@ -1,0 +1,1958 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Former Member Details | Queensland Parliament</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/QPS.ico" />
+
+    
+    
+    <link href="/styles/QPS.min.css" rel="stylesheet" />
+
+    <link href="/styles/QPS.generic.css" rel="stylesheet" />
+
+    <link href="/styles/daterangepicker.min.css" rel="stylesheet" />
+    
+    
+
+    
+    
+    
+    <style>
+        a[href]:not([href^="#"]):not([href^="blob"]):not([href=""])::after {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    
+
+  
+<div id="app-container" class="app-container">
+    <header class="header" role="banner">
+        <div class="container-fluid header pl-1 pr-1">
+    <div class="row no-gutters">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 logo">
+            <a href="/" title="Home" target="_self" alt="home page">
+                <img src="/-/media/Files/Project/QPS/Logos/parliament-logo.ashx?h=106&amp;w=112&amp;la=en&amp;hash=55A6209349E4B9787E940C7E76C38604" alt="QLD Parliament Logo" />
+            </a>
+        </div>
+        <div class="col col-xs-2 col-sm-2 col-md-2 col-lg-2 d-none d-lg-flex quickLinksBlock d-print-none">
+            
+        <div class="col js-watch-parliament" data-broadcast-endpoint="">
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live/chamber" class="btn btn-light lnkA" >                <i class="fa fa-fw fa-play-circle-o img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Parliament
+                </span>
+</a>        </div>
+
+        <div class="col js-watch-committees" data-broadcast-endpoint="">  
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live" class="btn btn-light js-single-comittee js-single-committee lnkC" >                <i class="fa fa-fw fa-podcast img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Committees
+                </span>
+</a>
+            <a id="watch-committees-dropdown-link" href="#" class="committees-dropdown-link btn btn-light d-none" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-fw fa-podcast img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Committees
+                    <i class="fa fa-chevron-down ml-1"></i>
+                </span>
+            </a>
+            <div class="dropdown-menu watch-committees-dropdown" aria-labelledby="watch-committees-dropdown-link">
+                
+            </div>
+        </div>
+
+
+        <div class="col">
+<a href="/Work-of-the-Assembly/Sitting-Dates/Dates" class="btn btn-light" >                    <i class="fa fa-fw fa-calendar img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Calendar
+                </span>
+</a>        </div>
+
+        </div>
+        <div class="col d-lg-none d-print-none">
+            <div class="row no-gutters mobileQuickLinksBlock">
+                
+        <div class="col js-watch-parliament" data-broadcast-endpoint="">
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live/chamber" class="btn btn-light lnkA" >                <i class="fa fa-fw fa-play-circle-o img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Parliament
+                </span>
+</a>        </div>
+
+        <div class="col js-watch-committees" data-broadcast-endpoint="">  
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live" class="btn btn-light js-single-comittee js-single-committee lnkC" >                <i class="fa fa-fw fa-podcast img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Committees
+                </span>
+</a>
+            <a id="watch-committees-dropdown-link" href="#" class="committees-dropdown-link btn btn-light d-none" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-fw fa-podcast img-fluid broadcast-icon"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Watch Committees
+                    <i class="fa fa-chevron-down ml-1"></i>
+                </span>
+            </a>
+            <div class="dropdown-menu watch-committees-dropdown" aria-labelledby="watch-committees-dropdown-link">
+                
+            </div>
+        </div>
+
+
+        <div class="col">
+<a href="/Work-of-the-Assembly/Sitting-Dates/Dates" class="btn btn-light" >                    <i class="fa fa-fw fa-calendar img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Calendar
+                </span>
+</a>        </div>
+        <div class="col">
+<a href="/Global/Remote-Access" class="btn btn-light" >                    <i class="fa fa-lock img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Remote Access
+                </span>
+</a>        </div>
+        <div class="col">
+<a href="https://qplibrary.softlinkhosting.com.au/" class="btn btn-light" title="Login to Parliamentary Library" >                    <i class="fa fa-fw fa-book img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Parliamentary Library
+                </span>
+</a>        </div>
+        <div class="col">
+<a href="/Global/Search" class="btn btn-light" >                    <i class="fa fa-search img-fluid text-primary"></i>
+                <span class="d-none d-lg-inline text-small">
+                    Advance Search
+                </span>
+</a>        </div>
+
+                <div class="col">
+                    <button class="btn btn-light navbar-toggler collapsed" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="row logoHeadingContainer">
+                <div class="col logoHeading align-items-center">Queensland Parliament</div>
+            </div>
+        </div>
+
+        <div class="d-none d-lg-flex col align-items-center logoHeading">Queensland Parliament</div>
+
+        <div class="d-none d-lg-block col col-md-4 col-lg-4 align-items-end pr-4 d-print-none">
+                    <div class="phrase-search">
+            <div class="phrase-search__item">
+<a href="/Global/Remote-Access" class="phrase-search__searchLink" >                        <i class="fa fa-lock img-fluid"></i>
+                        <span class="d-none d-lg-inline">REMOTE ACCESS</span>
+</a>
+<a href="https://qplibrary.softlinkhosting.com.au/" class="phrase-search__searchLink" rel="noopener noreferrer" target="_blank" title="Login to Parliamentary Library" >                        <i class="fa fa-book img-fluid"></i>
+                        <span class="d-none d-lg-inline">Login to Parliamentary Library</span>
+</a>            </div>
+<form action="/api/sitecore/Search/SubmitPhraseSearch" class="phrase-search__item phrase-search-form" method="post">                <div class="input-group input-group-sm">
+                    <input aria-describedby="search-icon" aria-label="Search" class="form-control phrase-search-input" id="QueryText" maxLength="40" name="QueryText" placeholder="I am looking for..." type="text" value="" />
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <input type="hidden" id="SearchResultsPage" name="searchResultsPage" value="7b8dd7bc-027c-4ccb-a8b9-597049a7c4ac" />
+</form>            <div class="phrase-search__item">
+                <a href="/Global/Search" class="phrase-search__searchLink">
+                    <i class="fa fa-search img-fluid"></i>
+                    <span class="d-none d-lg-inline">Advanced Search</span>
+                </a>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- add search box -->
+            <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-4cb9ad6e-f6ac-4d27-809d-d32292078e6c"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle visitLearn"
+                                    title="Visit and learn"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Visit and learn
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu visitLearn"
+                                     aria-labelledby="#nav-item-button-4cb9ad6e-f6ac-4d27-809d-d32292078e6c">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Visit-and-learn" style="color: #ffffff !important; text-decoration: none !important">Visit and learn</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                Queensland Parliament welcomes all visitors. Find out how to visit the public gallery, take a tour or learn about parliament at one of our educational programs here. 
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Message-from-the-Speaker" class="nav-link">
+                                                                                    Message from the Speaker
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/About-Us" class="nav-link">
+                                                                                    About Us
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/About-Us/A-day-in-the-Life-of-the-Queensland-Parliament" class="nav-link">A day in the Life of the Queensland Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Executive-Government-of-Queensland" class="nav-link">The Executive Government of Queensland</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Officers-of-the-Queensland-Parliament" class="nav-link">Officers of the Queensland Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Origins-of-the-Queensland-Parliament" class="nav-link">The Origins of the Queensland Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Parliament-and-Parliamentary-Process" class="nav-link">The Queensland Parliament and Parliamentary Process</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Parliamentary-Scrutiny-via-Parliamentary-Committees" class="nav-link">Parliamentary Scrutiny via Parliamentary Committees</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Parliament-and-the-Financial-Process" class="nav-link">The Queensland Parliament and the Financial Process</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Parliament-and-the-Legislative-Process" class="nav-link">The Queensland Parliament and the Legislative Process</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Constitution" class="nav-link">The Queensland Constitution</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Queensland-Electoral-System" class="nav-link">The Queensland Electoral System</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/The-Role-of-Parliament" class="nav-link">The Role of Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Separation-of-Powers" class="nav-link">Separation of Powers</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Information-on-Parliament" class="nav-link">Information on Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Learn-About-Parliament" class="nav-link">Learn About Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/About-Us/Information-For" class="nav-link">Information For</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Visitors" class="nav-link">
+                                                                                    Visitors
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Visitors/Free-Guided-Tour" class="nav-link">Free Guided Tour</a>
+<a href="/Visit-and-learn/Education/Programs/School-Excursions" class="nav-link" >School Excursion</a>                                                                                                    <a href="/Visit-and-learn/Visitors/Take-a-look-inside-Parliament-House" class="nav-link">Take a look inside Parliament House</a>
+                                                                                                    <a href="/Visit-and-learn/Visitors/Visitors-with-Guide-Hearing-or-Assistance-animals" class="nav-link">Visitors with Guide, Hearing or Assistance animals</a>
+                                                                                                    <a href="/Visit-and-learn/Visitors/COVID-19-Response" class="nav-link">COVID 19 Response</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/VisitPublicGallery" class="nav-link">
+                                                                                    Visit the Public Gallery 
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Visit-our-Gift-Shop" class="nav-link">
+                                                                                    Visit our Gift Shop
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Have-Your-Say" class="nav-link">
+                                                                                    Have Your Say
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+<a href="/Members/Current-Members/Member-List" class="nav-link" >Contact your local member</a><a href="/Work-of-Committees/Guidelines" class="nav-link" >Make a submission</a><a href="/Global/FAQs/Frequently-Asked-Questions-during-an-election-period" class="nav-link" >Vote at State Elections</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/create" class="nav-link" >Sign or start a petition</a>                                                                                                    <a href="/Visit-and-learn/Have-Your-Say/Contact-Us" class="nav-link">Contact Us</a>
+                                                                                                    <a href="/Visit-and-learn/Have-Your-Say/Subscribe" class="nav-link">Subscribe</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Get-Involved" class="nav-link">
+                                                                                    Get Involved
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Get-Involved/EventsatParliamentHOuse" class="nav-link">Events at Parliament House</a>
+<a href="/Visit-and-learn/About-Us/Learn-About-Parliament" class="nav-link" >Learn about Parliament</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Education" class="nav-link">
+                                                                                    Education and Learning
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Education/Student-Learning-Zone" class="nav-link">Student Learning Zone</a>
+                                                                                                    <a href="/Visit-and-learn/Education/Teacher-Resources" class="nav-link">Teacher Resources</a>
+                                                                                                    <a href="/Visit-and-learn/Education/Programs" class="nav-link">Programs</a>
+                                                                                                    <a href="/Visit-and-learn/Education/Resources" class="nav-link">Information Resources</a>
+                                                                                                    <a href="/Visit-and-learn/Education/News" class="nav-link">News</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/History" class="nav-link">
+                                                                                    History
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/History/Overview" class="nav-link">Overview</a>
+                                                                                                    <a href="/Visit-and-learn/History/History-of-Parliament-House" class="nav-link">History of Parliament House</a>
+                                                                                                    <a href="/Visit-and-learn/History/Key-Dates-and-Events" class="nav-link">Key Dates and Events</a>
+                                                                                                    <a href="/Visit-and-learn/History/Womens-Suffrage" class="nav-link">Womens Suffrage</a>
+                                                                                                    <a href="/Visit-and-learn/History/Elections-and-Referendums" class="nav-link">Elections and Referendums</a>
+<a href="/Members/Former-Members/Former-Members-Register" class="nav-link" >Former Members</a><a href="/Work-of-Committees/Former-Committees" class="nav-link" >Former Committees</a>                                                                                                    <a href="/Visit-and-learn/History/Governors-of-Queensland" class="nav-link">Governors of Queensland</a>
+                                                                                                    <a href="/Visit-and-learn/History/ODonovan-Library-and-Collection" class="nav-link">O&#39;Donovan Library and Collection</a>
+                                                                                                    <a href="/Visit-and-learn/History/100-Women-in-Parliament" class="nav-link">100 Women in Parliament</a>
+                                                                                                    <a href="/Visit-and-learn/History/Lucinda-Steamship" class="nav-link">Lucinda Steamship</a>
+                                                                                                    <a href="/Visit-and-learn/History/War-Service-Honour-Board" class="nav-link">War Service Honour Board</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="https://collections.parliament.qld.gov.au/explore" class="nav-link" >Heritage Collections</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Preservation-of-our-Heritage" class="nav-link">
+                                                                                    Preservation of our Heritage
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Preservation-of-our-Heritage/Restoration-of-Heritage-Maps" class="nav-link">Restoration of Heritage Maps </a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Regional-Sittings" class="nav-link">
+                                                                                    Regional Sittings
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/Far-North-Queensland-Regional-Sitting-2023" class="nav-link">Far North Queensland Regional Sitting 2023</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/North-Queensland-Regional-Parliament-2019" class="nav-link">North Queensland Regional Parliament 2019</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/Mackay-Regional-Sitting-of-Parliament" class="nav-link">Mackay Regional Sitting of Parliament 2011</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/Far-North-Queensland" class="nav-link">Far North Queensland</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/Central-Queensland" class="nav-link">Central Queensland</a>
+                                                                                                    <a href="/Visit-and-learn/Regional-Sittings/North-Queensland" class="nav-link">North Queensland</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/CPA-Australia-and-Pacific-Regional-Conference" class="nav-link">
+                                                                                    CPA Australia and Pacific Regional Conference
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Publications-and-Reports" class="nav-link">
+                                                                                    Publications and Reports
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Visit-and-learn/Publications-and-Reports/Annual-Reports" class="nav-link">Annual Reports</a>
+<a href="/Work-of-the-Assembly/Record-of-Proceedings" class="nav-link" >Hansard</a>                                                                                                    <a href="/Visit-and-learn/Publications-and-Reports/Parliamentary-Record" class="nav-link">Parliamentary Record</a>
+                                                                                                    <a href="/Visit-and-learn/Publications-and-Reports/Chamber-and-Procedural-Publications" class="nav-link">Chamber and Procedural Publications</a>
+                                                                                                    <a href="/Visit-and-learn/Publications-and-Reports/States-Budget" class="nav-link">Parliament&#39;s Budget</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Speakers-Corner" class="nav-link">
+                                                                                    Speakers&#39; Corner 
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Opening-of-Parliament" class="nav-link">
+                                                                                    Opening of the 58th Parliament
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Annexe-Reparation" class="nav-link">
+                                                                                    Parliamentary Annexe Reparation and Refurbishment
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Visit-and-learn/Contact-Us" class="nav-link">
+                                                                                    Contact Us
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Mega-Menu/Mace_Megamenu.ashx?h=250&amp;w=470&amp;la=en&amp;hash=FE0C74366F128DA3D27B9378C46EB51E" class="img-fluid" alt="Gold Mace" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-89e4910b-2abf-4452-85e8-60d78da496c6"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle workAssembly"
+                                    title="Work of the Assembly"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Work of the Assembly
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu workAssembly"
+                                     aria-labelledby="#nav-item-button-89e4910b-2abf-4452-85e8-60d78da496c6">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Work-of-the-Assembly" style="color: #ffffff !important; text-decoration: none !important">Work of the Assembly</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                The Queensland Parliament is a unicameral parliament, consisting of the Legislative Assembly of Queensland (the Lower House) and the sovereign (the King or Queen). Find out when the Legislative Assembly meet, the latest Bills and documents, records and statistics here. You can also watch live and archived broadcasts on demand.
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Whats-new" class="nav-link">
+                                                                                    What&#39;s New
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Sitting-Dates" class="nav-link">
+                                                                                    Sitting Dates
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Sitting-Dates/Latest-Sitting-Week" class="nav-link">Latest Sitting Week</a>
+<a href="/Work-of-the-Assembly/Sitting-Dates/Dates" class="nav-link" >Dates</a><a href="/Work-of-the-Assembly/Sitting-Dates/Work-of-the-House" class="nav-link" >Work of the House</a><a href="/Work-of-the-Assembly/Sitting-Dates/Chamber-Seating-Plan" class="nav-link" >Chamber Seating Plan</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Live-and-Archived-Broadcasts" class="nav-link">
+                                                                                    Live and Archived Broadcasts
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live" class="nav-link" >Live Parliament and Committee Broadcast</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/search?t=Chamber&amp;nf=chamber" class="nav-link" rel="noopener noreferrer" target="_blank" >Archived Chamber Broadcasts</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/search?t=Committee&amp;nf=committee" class="nav-link" rel="noopener noreferrer" target="_blank" >Archived Committee Broadcasts</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/search" class="nav-link" >Search Archived Broadcasts</a><a href="/Work-of-the-Assembly/Live-and-Archived-Broadcasts/Terms-and-Conditions" class="nav-link" >Terms and Conditions</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="/Work-of-the-Assembly/Sitting-Dates/Latest-Sitting-Week" class="nav-link" >Daily Agenda (Notice Paper)</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Record-of-Proceedings" class="nav-link">
+                                                                                    Record of Proceedings (Hansard)
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Record-of-Proceedings/Overview" class="nav-link">Overview</a>
+<a href="/Work-of-the-Assembly/Sitting-Dates/Latest-Sitting-Week" class="nav-link" >Latest Record of Proceedings</a><a href="/Work-of-the-Assembly/Sitting-Dates/Dates" class="nav-link" >Browse by Sitting Dates</a>                                                                                                    <a href="/Work-of-the-Assembly/Record-of-Proceedings/Indexes-to-Debates" class="nav-link">Indexes to Debates</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Citizens-Right-of-Reply" class="nav-link">
+                                                                                    Citizen&#39;s Right of Reply
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Petitions" class="nav-link">
+                                                                                    Petitions
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/create" class="nav-link" >Create a Petition</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/current" class="nav-link" >Open E-Petitions</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/closed" class="nav-link" >Closed Petitions</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions/rules-and-information" class="nav-link" >Rules and Information</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Bills-and-Legislation" class="nav-link">
+                                                                                    Bills and Legislation
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Whats-new" class="nav-link">What&#39;s new</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Overview" class="nav-link">Overview</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Bills-this-Parliament" class="nav-link">Bills this Parliament</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Bills-before-the-House" class="nav-link">Bills before the House</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Bills-and-Legislation/Bills-previous-Parliaments" class="nav-link">Bills previous Parliaments</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers" class="nav-link">
+                                                                                    Questions on Notice and Answers
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers/Questions-on-Notice-and-Answers-from-2004" class="nav-link">Questions on Notice and Answers from 2004</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers/Questions-on-Notice-and-Answers-from-1995-to-2003" class="nav-link">Questions on Notice and Answers from 1995 to 2003</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers/Procedures-for-Answering" class="nav-link">Procedures for Answering</a>
+<a href="/Visit-and-learn/Have-Your-Say/Subscribe" class="nav-link" >Subscribe</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Tabled-Papers" class="nav-link">
+                                                                                    Tabled Papers
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-the-Assembly/Tabled-Papers/Online-Tabled-Papers" class="nav-link">Online Tabled Papers</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Tabled-Papers/Registers-of-Tabled-Papers" class="nav-link">Registers of Legislative Assembly Tabled Papers Prior to September 2024</a>
+                                                                                                    <a href="/Work-of-the-Assembly/Tabled-Papers/Tabling-Procedures-and-Guidelines" class="nav-link">Tabling Procedures and Guidelines</a>
+<a href="https://www.parliament.qld.gov.au/Visit-and-learn/Have-Your-Say/Subscribe" class="nav-link" >Subscribe </a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-the-Assembly/Procedures" class="nav-link">
+                                                                                    Procedures
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Mega-Menu/WorkoftheAssembly_Meganmenu.ashx?h=250&amp;w=470&amp;la=en&amp;hash=E69A4D868A33304A0ECFA5BEF96D1DA2" class="img-fluid" alt="Legislative Assembly" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-aaa74624-1612-43bf-92a6-7103e3bb9925"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle workCommittees"
+                                    title="Work of committees"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Work of committees
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu workCommittees"
+                                     aria-labelledby="#nav-item-button-aaa74624-1612-43bf-92a6-7103e3bb9925">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Work-of-Committees" style="color: #ffffff !important; text-decoration: none !important">Work of committees</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                Committees investigate specific issues and proposed legislation, and report back to the Parliament. Find information on current and past committees here, including areas of responsibility, how they work, their activities, and how you can get involved in the committee process.  
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Upcoming-Committee-Business" class="nav-link">
+                                                                                    Upcoming Committee Business
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Introduction" class="nav-link">
+                                                                                    About Committees
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-Committees/Introduction/History" class="nav-link">History</a>
+                                                                                                    <a href="/Work-of-Committees/Introduction/What-is-Parliamentary-Committee" class="nav-link">What is a Parliamentary Committee</a>
+                                                                                                    <a href="/Work-of-Committees/Introduction/Membership-and-Operation" class="nav-link">Portfolio Committees - Membership and Operation</a>
+                                                                                                    <a href="/Work-of-Committees/Introduction/Survey" class="nav-link">Engagement Survey</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/ticket-sales-open" class="nav-link">
+                                                                                    Training Seminar - Committees@Work
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Committees" class="nav-link">
+                                                                                    Committees (10)
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=164" title="Committee of the Legislative Assembly" target="_self" alt="Committee of the Legislative Assembly" class="nav-link">
+                                                                                                Committee of the Legislative Assembly
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=269" title="Education, Arts and Communities Committee" target="_self" alt="Education, Arts and Communities Committee" class="nav-link">
+                                                                                                Education, Arts and Communities Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=168" title="Ethics Committee" target="_self" alt="Ethics Committee" class="nav-link">
+                                                                                                Ethics Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=277" title="Governance, Energy and Finance Committee" target="_self" alt="Governance, Energy and Finance Committee" class="nav-link">
+                                                                                                Governance, Energy and Finance Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=274" title="Health, Environment and Innovation Committee" target="_self" alt="Health, Environment and Innovation Committee" class="nav-link">
+                                                                                                Health, Environment and Innovation Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=275" title="Justice, Integrity and Community Safety Committee" target="_self" alt="Justice, Integrity and Community Safety Committee" class="nav-link">
+                                                                                                Justice, Integrity and Community Safety Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=267" title="Local Government, Small Business and Customer Service Committee" target="_self" alt="Local Government, Small Business and Customer Service Committee" class="nav-link">
+                                                                                                Local Government, Small Business and Customer Service Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=171" title="Parliamentary Crime and Corruption Committee" target="_self" alt="Parliamentary Crime and Corruption Committee" class="nav-link">
+                                                                                                Parliamentary Crime and Corruption Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=270" title="Primary Industries and Resources Committee" target="_self" alt="Primary Industries and Resources Committee" class="nav-link">
+                                                                                                Primary Industries and Resources Committee
+                                                                                            </a>
+                                                                                            <a href="/Work-of-Committees/Committees/Committee-Details?cid=272" title="State Development, Infrastructure and Works Committee" target="_self" alt="State Development, Infrastructure and Works Committee" class="nav-link">
+                                                                                                State Development, Infrastructure and Works Committee
+                                                                                            </a>
+
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Committees-Glossary" class="nav-link">
+                                                                                    Committees Glossary
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Estimates-Hearings" class="nav-link">
+                                                                                    Estimates Hearings
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Work-of-Committees/Estimates-Hearings/Former-Estimates-Hearing" class="nav-link">Former Estimates Hearings</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Inquiries" class="nav-link">
+                                                                                    Inquiries
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Live-and-Archived-Broadcasts" class="nav-link">
+                                                                                    Live and Archived Broadcasts
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+<a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/live" class="nav-link" rel="noopener noreferrer" target="_blank" >Live Committee Broadcast</a><a href="https://www.parliament.qld.gov.au/Work-of-the-Assembly/Live-and-Archived-Broadcasts/search?t=Committee&amp;nf=committee" class="nav-link" rel="noopener noreferrer" target="_blank" >Archived Committee Broadcasts</a><a href="/Work-of-the-Assembly/Live-and-Archived-Broadcasts/Terms-and-Conditions" class="nav-link" >Terms and Conditions</a>                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Publications" class="nav-link">
+                                                                                    Publications
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Guidelines" class="nav-link">
+                                                                                    Guidelines
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="https://www.parliament.qld.gov.au/Visit-and-learn/Have-Your-Say/Subscribe" class="nav-link" >Subscribe</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Former-Committees" class="nav-link">
+                                                                                    Former Committees (67)
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/30-Year-Release" class="nav-link">
+                                                                                    30 Year Release
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Past-Alert-Digest-and-Legislation-Alert-Indexes" class="nav-link">
+                                                                                    Past Alert Digest and Legislation Alert Indexes
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Work-of-Committees/Ten-Year-Anniversary" class="nav-link">
+                                                                                    Ten Year Anniversary
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Files/Project/QPS/Homepage-MegaMenu/Work-of-Committees.ashx?h=250&amp;w=470&amp;la=en&amp;hash=8BF96C4E35BE96E8B8CD842E957D105A" class="img-fluid" alt="Work of Committees" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-27b79b38-966f-4175-80ea-77a48f13e975"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle members"
+                                    title="Members"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Members
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu members"
+                                     aria-labelledby="#nav-item-button-27b79b38-966f-4175-80ea-77a48f13e975">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Members" style="color: #ffffff !important; text-decoration: none !important">Members</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                There are currently 93 MPs, each representing one of Queensland’s 93 electorates. Each Member is elected for a four year term. Find details for current and former members here.
+
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Members/Current-Members" class="nav-link">
+                                                                                    Current Members (including Ministers and shadow Ministers)
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Members/Current-Members/Member-List" class="nav-link">Member List</a>
+                                                                                                    <a href="/Members/Current-Members/Full-Mailing-Lists" class="nav-link">Full Mailing List</a>
+<a href="/Members/Current-Members/Register-of-Members-Interests" class="nav-link" >Register of Members&#39; Interests</a>                                                                                                    <a href="/Members/Current-Members/Parliamentary-Friends-Of-Groups" class="nav-link">&#39;Parliamentary Friends of&#39; Groups</a>
+<a href="/Global/Search?index=qps_speeches_index" class="nav-link" >Member Speeches</a>                                                                                                    <a href="/Members/Current-Members/Office-of-the-Leader-of-the-Opposition" class="nav-link">Office of the Leader of the Opposition</a>
+                                                                                                    <a href="/Members/Current-Members/Shadow-Minister-Lobbyist-Meetings" class="nav-link">Shadow Minister Lobbyist Meetings</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Members/Former-Members" class="nav-link">
+                                                                                    Former Members
+
+                                                                                        <i class="arrow-down fa fa-caret-down"></i>
+                                                                                </a>
+
+                                                                                <div class="hidden submenu-items">
+
+                                                                                                    <a href="/Members/Former-Members/Former-Members-Register" class="nav-link">Former Members Register</a>
+                                                                                                    <a href="/Members/Former-Members/Contacting-Former-Members" class="nav-link">Contacting Former Members and Association</a>
+                                                                                                    <a href="/Members/Former-Members/Members-of-the-first-Parliament" class="nav-link">Members of the first Parliament</a>
+                                                                                </div>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Members/Members-and-Former-Members-Entitlements" class="nav-link">
+                                                                                    Members&#39; and Former Members&#39; Entitlements
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Mega-Menu/Members_OfficialPhoto_megamenu.ashx?h=250&amp;w=470&amp;la=en&amp;hash=C7725FBEAF5BCED9D1EF100D3E8CF457" class="img-fluid" alt="Image of all members in Legislative Assembly taken above from media gallery" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-96c5a80a-5f5e-4d35-a8f3-63e0b9511597"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle functionVenues"
+                                    title="Events and functions"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Events and functions
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu functionVenues"
+                                     aria-labelledby="#nav-item-button-96c5a80a-5f5e-4d35-a8f3-63e0b9511597">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Events-and-functions" style="color: #ffffff !important; text-decoration: none !important">Events and functions</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                Parliament House is Brisbane’s leading heritage venue. Find out more about visiting Parliament House, our latest events and exclusive venues available for private hire. 
+
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="https://qldparliamentdining.com.au/" class="nav-link" >Visit our dedicated Events &amp; Dining website.</a>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                <img src="/-/media/Files/Project/QPS/Homepage-MegaMenu/Cellar.ashx?h=400&amp;w=1200&amp;la=en&amp;hash=69765A485C05B1E51FF1E266BB83A681" class="img-fluid" alt="Cellar" />
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button id="#nav-item-button-8f6b3da4-b96b-43db-8389-153ecdd624a3"
+                                    type="button"
+                                    class="nav-link dropdown-toggle nav-dropdown-toggle visitLearn"
+                                    title="Careers"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Careers
+                            </button>
+                                <div class="dropdown-menu nav-dropdown-menu visitLearn"
+                                     aria-labelledby="#nav-item-button-8f6b3da4-b96b-43db-8389-153ecdd624a3">
+                                    <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block">
+                                        <h1>
+                                            <a href="/Careers" style="color: #ffffff !important; text-decoration: none !important">Careers</a>
+                                        </h1>
+                                        <div class="headingLine"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-none d-xs-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
+                                            <p>
+                                                Careers at Queensland Parliament
+                                            </p>
+                                        </div>
+
+                                        <!-- /.col-md-4  -->
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                                                    <ul class="nav flex-column">
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="/Careers" class="nav-link" >What we offer</a>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+<a href="https://smartjobs.qld.gov.au/jobtools/jncustomsearch.searchResults?in_organid=14904&amp;in_multi02_id=requirements.agencynumber&amp;in_multi02=%2215090%22" class="nav-link" rel="noopener noreferrer" target="_blank" title="Smartjobs" >Permanent/Contract Roles</a>
+                                                                        </div>
+                                                                    </li>
+</ul></div><div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6"><ul class="nav flex-column">                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Careers/Casual-Roles-at-Parliament" class="nav-link">
+                                                                                    Casual Roles
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="nav-item">
+                                                                        <div class="submenu">
+                                                                                <a href="/Careers/Graduate-Program" class="nav-link">
+                                                                                    Graduate Program
+
+                                                                                </a>
+
+                                                                        </div>
+                                                                    </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- /.col-md-4 col-sm-12 col-lg-2 -->
+                                        <div class="d-none d-xs-none d-sm-none  d-md-none d-lg-block col-sm  col-lg-2 col-xl-2">
+                                            <a href="">
+                                                
+                                            </a>
+                                        </div>
+                                        <!-- /.col-md-4  -->
+                                    </div>
+                                    <!--  /.container  -->
+                                </div>
+                        </li>
+            </ul>
+    </div>
+</nav>
+    </header>
+    <main class="main" role="main">
+            <div class="banner-wrapper members">
+        <div class="banner-content centre">
+            <h1 class="banner-heading">Former Member Details</h1>
+            <div class="headingLine"></div>
+        </div>
+    </div>
+    <div class="breadcrumbs no-link-on-print">
+        <ul>
+            
+
+    <li>
+
+            <a href="/" title="Home" target="_self" alt="Home">
+                Home
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members" title="Members" target="_self" alt="Members">
+                Members
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Former-Members" title="Former Members" target="_self" alt="Former Members">
+                Former Members
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Former-Members/Former-Members-Register" title="Former Members Register" target="_self" alt="Former Members Register">
+                Former Members Register
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Former-Members/Former-Members-Register/Former-Member-Details" title="Former Member Details" target="_self" alt="Former Member Details">
+                Former Member Details
+            </a>
+    </li>
+        </ul>
+    </div>
+
+
+
+<div class="">
+    <div class="row row-md2-equal-height-cols ">
+                <div class=" col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
+                    
+
+
+        <div class="secondary-nav">
+            <ul>
+                <li>
+                        <a href="/Members"
+       class="top-level-item  "
+       title="Members"
+       target="_self"
+       alt="Members">
+        Members
+    </a>
+
+
+                        <ul class="">
+
+                                    <li>
+                                            <a href="/Members/Current-Members"
+       class="second-level  "
+       title="Current Members (including Ministers and shadow Ministers)"
+       target="_self"
+       alt="Current Members (including Ministers and shadow Ministers)">
+        Current Members (including Ministers and shadow Ministers)
+    </a>
+
+
+                                    </li>
+                                    <li>
+                                            <a href="/Members/Former-Members"
+       class="second-level  "
+       title="Former Members"
+       target="_self"
+       alt="Former Members">
+        Former Members
+    </a>
+
+
+                                            <ul class="">
+
+                                                        <li>
+                                                                <a href="/Members/Former-Members/Former-Members-Register"
+       class="third-level  current-item"
+       title="Former Members Register"
+       target="_self"
+       alt="Former Members Register">
+        Former Members Register
+    </a>
+
+
+                                                                <ul class="">
+
+                                                                </ul>
+                                                        </li>
+                                                        <li>
+                                                                <a href="/Members/Former-Members/Contacting-Former-Members"
+       class="third-level  "
+       title="Contacting Former Members and Association"
+       target="_self"
+       alt="Contacting Former Members and Association">
+        Contacting Former Members and Association
+    </a>
+
+
+                                                        </li>
+                                                        <li>
+                                                                <a href="/Members/Former-Members/Members-of-the-first-Parliament"
+       class="third-level  "
+       title="Members of the first Parliament"
+       target="_self"
+       alt="Members of the first Parliament">
+        Members of the first Parliament
+    </a>
+
+
+                                                        </li>
+                                            </ul>
+                                    </li>
+                                    <li>
+                                            <a href="/Members/Members-and-Former-Members-Entitlements"
+       class="second-level  "
+       title="Members&#39; and Former Members&#39; Entitlements"
+       target="_self"
+       alt="Members&#39; and Former Members&#39; Entitlements">
+        Members&#39; and Former Members&#39; Entitlements
+    </a>
+
+
+                                    </li>
+                        </ul>
+                </li>
+            </ul>
+        </div>
+
+                </div>
+                <div class=" col-lg-9 col-md-12 col-sm-12 col-xs-12 ">
+                    
+
+        <section class="former-member">
+            <div class="former-member__main-container">
+                <div class="former-member__title-container">
+                    <h2 class="former-member__title h2 col pl-0">Agnew, George</h2>
+                    <button class="former-member__print btn btn-primary col-md-2 col-sm-12" onclick="window.print()">
+                        <span class="fa fa-print"></span>
+                        <span class="sr-only">Print page</span>
+                    </button>
+                </div>
+                
+                <div class="former-member__profile-block">
+                    <h3 class="h3">Personal</h3>
+                    <div class="former-member__profile-container">
+                        <div class="former-member__image-container">
+                            <div class="former-member__image-wrapper">
+                                    <img src="data:image/jpg;base64,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" alt="Agnew, George" />
+                            </div>
+                        </div>
+                        <div class="former-member__content-block">
+                            <div class="curent-member__content-container">
+                                
+                                    <div class="former-member__row">
+                                        <span class="former-member__row-label">Birth Date:</span>
+                                        <span class="former-member__row-text   col-lg-7 col-sm-9 col-xs-12">
+                                            14 June 1853 (Manchester)
+                                        </span>
+                                    </div>
+                                                                    <div class="former-member__row">
+                                        <span class="former-member__row-label ">Death Date:</span>
+                                        <span class="former-member__row-text   col-lg-7 col-sm-9 col-xs-12">
+                                            19 December 1934 (Sandgate, Queensland)
+                                        </span>
+                                    </div>
+                                                                    <div class="former-member__row">
+                                        <span class="former-member__row-label ">Parents:</span>
+                                        <span class="former-member__row-text   col-lg-7 col-sm-9 col-xs-12">
+                                            Hugh Agnew and Eliza (nee Byron)
+                                        </span>
+                                    </div>
+                                                                    <div class="former-member__row">
+                                        <span class="former-member__row-label">Family:</span>
+                                        <span class="former-member__row-text  col-lg-7 col-sm-9 col-xs-12">
+                                            Mary Elizabeth Walmsley on 19 February 1880, 4 sons, 4 daughters
+                                        </span>
+                                    </div>
+                                                                                                    <div class="former-member__row">
+                                        <span class="former-member__row-label ">Religion:</span>
+                                        <span class="former-member__row-text  col-lg-7 col-sm-9 col-xs-12">Roman Catholic</span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="former-member__content-block">
+                        <h3 class="h3">Career</h3>
+                        <div class="former-member__content-container">
+                            <div class="former-member__content">
+                                    <p>Manchester and Ashbury railway works; Migrated to Sydney New South Wales in 1880 and then to Brisbane Queensland 1882; Managing director, Queensland Railway Carriage, Wagon &amp; Tramcar Company; Director, Queensland Deposit and Grassdale Land Company</p>
+                                                                    <div class="former-member__row">
+                                        <span class="former-member__row-label col-lg-2  col-sm-3 col-xs-12">Local Government Service:</span>
+                                        <span class="former-member__row-text  col-lg-10 col-sm-9 col-xs-12">
+                                            Alderman Sandgate
+                                        </span>
+                                    </div>
+                                                            </div>
+
+                            
+
+                        </div>
+                    </div>
+                                    <div class="former-member__content-block">
+                        <h3 class="h3">Parliamentary Representation</h3>
+                        <div class="former-member__table-container ">
+                            <table class="former-member__table">
+                                
+                                <thead class="former-member__table-head">
+                                    <tr class="former-member__table-row">
+                                        <th class="former-member__table-header">House</th>
+                                        <th class="former-member__table-header">Party</th>
+                                        <th class="former-member__table-header">Electorate</th>
+                                        <th class="former-member__table-header">From</th>
+                                        <th class="former-member__table-header">To</th>
+                                        <th class="former-member__table-header">Elected/Departure Reason</th>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody class="former-member__table-body">
+                                        <tr class="former-member__table-row">
+                                            <td class="former-member__table-data">Assembly</td>
+                                            <td class="former-member__table-data">NONE</td>
+                                            <td class="former-member__table-data">Nundah</td>
+                                            <td class="former-member__table-data">10 May 1888</td>
+                                            <td class="former-member__table-data">21 Mar 1896</td>
+                                            <td class="former-member__table-data"></td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                
+                
+                                    <div class="former-member__content-block">
+                        <h3 class="h3">Additional Information</h3>
+                        <div class="former-member__content-container">
+                            <div class="former-member__content">
+                                
+                                    <div class="former-member__stacked-row">
+                                        <span class="former-member__row-label col-sm-12">Notes:</span>
+                                        <span class="former-member__row-text  col-sm-12">
+                                            Political alliance with McIlwraith&#160;
+                                        </span>
+                                    </div>
+                                                                    <div class="former-member__stacked-row">
+                                        <span class="former-member__row-label col-sm-12">Sources:</span>
+                                        <span class="former-member__row-text  col-sm-12">
+                                            Image courtesy of John Oxley Library, State Library of Queensland; Waterson, DB, A Biographical Register of the Queensland Parliament: 1860-1929, 2nd revised edition (Sydney: Casket Publications, 2001)
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="former-member__content-block">
+                        <div class="former-member__content">
+                            <div class="former-member__stacked-row">
+                                <span class="former-member__last-modfied">[Last Modified: Tuesday, 30 October 2018]</span>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+
+
+                </div>
+
+    </div>
+</div>
+
+    </main>
+    <footer class="footer" role="contentinfo">
+            <div class="footer-primary-wrapper">
+        <nav role="navigation" class="footer-primary">
+            <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Visit-and-learn" title="Visit and learn" target="_self" alt="Visit and learn">
+                Visit and learn
+            </a>
+    </li>
+
+
+    <li>
+
+            <a href="/Visit-and-learn/Message-from-the-Speaker" title="Message from the Speaker" target="_self" alt="Message from the Speaker">
+                Message from the Speaker
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/About-Us" title="About Us" target="_self" alt="About Us">
+                About Us
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Visitors" title="Visitors" target="_self" alt="Visitors">
+                Visitors
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/VisitPublicGallery" title="Visit the Public Gallery " target="_self" alt="Visit the Public Gallery ">
+                Visit the Public Gallery 
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Visit-our-Gift-Shop" title="Visit our Gift Shop" target="_self" alt="Visit our Gift Shop">
+                Visit our Gift Shop
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Have-Your-Say" title="Have Your Say" target="_self" alt="Have Your Say">
+                Have Your Say
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Get-Involved" title="Get Involved" target="_self" alt="Get Involved">
+                Get Involved
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Education" title="Education and Learning" target="_self" alt="Education and Learning">
+                Education and Learning
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/History" title="History" target="_self" alt="History">
+                History
+            </a>
+    </li>
+    <li>
+
+<a href="https://collections.parliament.qld.gov.au/explore" class="" >Heritage Collections</a>    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Preservation-of-our-Heritage" title="Preservation of our Heritage" target="_self" alt="Preservation of our Heritage">
+                Preservation of our Heritage
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Regional-Sittings" title="Regional Sittings" target="_self" alt="Regional Sittings">
+                Regional Sittings
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/CPA-Australia-and-Pacific-Regional-Conference" title="CPA Australia and Pacific Regional Conference" target="_self" alt="CPA Australia and Pacific Regional Conference">
+                CPA Australia and Pacific Regional Conference
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Publications-and-Reports" title="Publications and Reports" target="_self" alt="Publications and Reports">
+                Publications and Reports
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Speakers-Corner" title="Speakers&#39; Corner " target="_self" alt="Speakers&#39; Corner ">
+                Speakers&#39; Corner 
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Opening-of-Parliament" title="Opening of the 58th Parliament" target="_self" alt="Opening of the 58th Parliament">
+                Opening of the 58th Parliament
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Annexe-Reparation" title="Parliamentary Annexe Reparation and Refurbishment" target="_self" alt="Parliamentary Annexe Reparation and Refurbishment">
+                Parliamentary Annexe Reparation and Refurbishment
+            </a>
+    </li>
+    <li>
+
+            <a href="/Visit-and-learn/Contact-Us" title="Contact Us" target="_self" alt="Contact Us">
+                Contact Us
+            </a>
+    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Work-of-the-Assembly" title="Work of the Assembly" target="_self" alt="Work of the Assembly">
+                Work of the Assembly
+            </a>
+    </li>
+
+
+    <li>
+
+            <a href="/Work-of-the-Assembly/Whats-new" title="What&#39;s New" target="_self" alt="What&#39;s New">
+                What&#39;s New
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Sitting-Dates" title="Sitting Dates" target="_self" alt="Sitting Dates">
+                Sitting Dates
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Live-and-Archived-Broadcasts" title="Live and Archived Broadcasts" target="_self" alt="Live and Archived Broadcasts">
+                Live and Archived Broadcasts
+            </a>
+    </li>
+    <li>
+
+<a href="/Work-of-the-Assembly/Sitting-Dates/Latest-Sitting-Week" class="" >Daily Agenda (Notice Paper)</a>    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Record-of-Proceedings" title="Record of Proceedings (Hansard)" target="_self" alt="Record of Proceedings (Hansard)">
+                Record of Proceedings (Hansard)
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Citizens-Right-of-Reply" title="Citizen&#39;s Right of Reply" target="_self" alt="Citizen&#39;s Right of Reply">
+                Citizen&#39;s Right of Reply
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Petitions" title="Petitions" target="_self" alt="Petitions">
+                Petitions
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Bills-and-Legislation" title="Bills and Legislation" target="_self" alt="Bills and Legislation">
+                Bills and Legislation
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Questions-on-Notice-and-Answers" title="Questions on Notice and Answers" target="_self" alt="Questions on Notice and Answers">
+                Questions on Notice and Answers
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Tabled-Papers" title="Tabled Papers" target="_self" alt="Tabled Papers">
+                Tabled Papers
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-the-Assembly/Procedures" title="Procedures" target="_self" alt="Procedures">
+                Procedures
+            </a>
+    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Work-of-Committees" title="Work of committees" target="_self" alt="Work of committees">
+                Work of committees
+            </a>
+    </li>
+
+
+    <li>
+
+            <a href="/Work-of-Committees/Upcoming-Committee-Business" title="Upcoming Committee Business" target="_self" alt="Upcoming Committee Business">
+                Upcoming Committee Business
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Introduction" title="About Committees" target="_self" alt="About Committees">
+                About Committees
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/ticket-sales-open" title="Training Seminar - Committees@Work" target="_self" alt="Training Seminar - Committees@Work">
+                Training Seminar - Committees@Work
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Committees" title="Committees (10)" target="_self" alt="Committees (10)">
+                Committees (10)
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Committees-Glossary" title="Committees Glossary" target="_self" alt="Committees Glossary">
+                Committees Glossary
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Estimates-Hearings" title="Estimates Hearings" target="_self" alt="Estimates Hearings">
+                Estimates Hearings
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Inquiries" title="Inquiries" target="_self" alt="Inquiries">
+                Inquiries
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Live-and-Archived-Broadcasts" title="Live and Archived Broadcasts" target="_self" alt="Live and Archived Broadcasts">
+                Live and Archived Broadcasts
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Publications" title="Publications" target="_self" alt="Publications">
+                Publications
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Guidelines" title="Guidelines" target="_self" alt="Guidelines">
+                Guidelines
+            </a>
+    </li>
+    <li>
+
+<a href="https://www.parliament.qld.gov.au/Visit-and-learn/Have-Your-Say/Subscribe" class="" >Subscribe</a>    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Former-Committees" title="Former Committees (67)" target="_self" alt="Former Committees (67)">
+                Former Committees (67)
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/30-Year-Release" title="30 Year Release" target="_self" alt="30 Year Release">
+                30 Year Release
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Past-Alert-Digest-and-Legislation-Alert-Indexes" title="Past Alert Digest and Legislation Alert Indexes" target="_self" alt="Past Alert Digest and Legislation Alert Indexes">
+                Past Alert Digest and Legislation Alert Indexes
+            </a>
+    </li>
+    <li>
+
+            <a href="/Work-of-Committees/Ten-Year-Anniversary" title="Ten Year Anniversary" target="_self" alt="Ten Year Anniversary">
+                Ten Year Anniversary
+            </a>
+    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Members" title="Members" target="_self" alt="Members">
+                Members
+            </a>
+    </li>
+
+
+    <li>
+
+            <a href="/Members/Current-Members" title="Current Members (including Ministers and shadow Ministers)" target="_self" alt="Current Members (including Ministers and shadow Ministers)">
+                Current Members (including Ministers and shadow Ministers)
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Former-Members" title="Former Members" target="_self" alt="Former Members">
+                Former Members
+            </a>
+    </li>
+    <li>
+
+            <a href="/Members/Members-and-Former-Members-Entitlements" title="Members&#39; and Former Members&#39; Entitlements" target="_self" alt="Members&#39; and Former Members&#39; Entitlements">
+                Members&#39; and Former Members&#39; Entitlements
+            </a>
+    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+<a href="https://qldparliamentdining.com.au/" class="" >Events and functions</a>    </li>
+
+
+    <li>
+
+<a href="https://qldparliamentdining.com.au/" class="" >Visit our dedicated Events &amp; Dining website.</a>    </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <ul>
+                                    <li>
+
+            <a href="/Careers" title="Careers" target="_self" alt="Careers">
+                Careers
+            </a>
+    </li>
+
+
+    <li>
+
+<a href="/Careers" class="" >What we offer</a>    </li>
+    <li>
+
+<a href="https://smartjobs.qld.gov.au/jobtools/jncustomsearch.searchResults?in_organid=14904&amp;in_multi02_id=requirements.agencynumber&amp;in_multi02=%2215090%22" class="" rel="noopener noreferrer" target="_blank" title="Smartjobs" >Permanent/Contract Roles</a>    </li>
+    <li>
+
+            <a href="/Careers/Casual-Roles-at-Parliament" title="Casual Roles" target="_self" alt="Casual Roles">
+                Casual Roles
+            </a>
+    </li>
+    <li>
+
+            <a href="/Careers/Graduate-Program" title="Graduate Program" target="_self" alt="Graduate Program">
+                Graduate Program
+            </a>
+    </li>
+                            </ul>
+                        </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                    <ul>
+                        <li>
+                            <a>Stay in touch</a>
+                        </li>
+                        <li>
+                                <div class="social-wrapper social-media-item">
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="/Global/Contact-Us" class="social-link" title="contact us" >                <i class="fas fa-envelope"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="/Global/Contact-Us" class="social-link" title="contact us" >                <i class="fas fa-phone"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="https://twitter.com/QueenslandParl1" class="social-link" rel="noopener noreferrer" target="_blank" title="Twitter" >                <i class="fab fa-twitter"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="https://www.facebook.com/QueenslandParliament/" class="social-link" rel="noopener noreferrer" target="_blank" title="Facebook" >                <i class="fab fa-facebook-f"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="https://www.linkedin.com/company/queensland-parliament/" class="social-link" rel="noopener noreferrer" target="_blank" title="LinkedIn" >                <i class="fab fa-linkedin"></i>
+</a>        </div>
+        <div class="col-xs-2 col-md-3 social-icon">           
+<a href="https://www.instagram.com/Queenslandparliament/" class="social-link" rel="noopener noreferrer" target="_blank" title="Instagram" >                <i class="fab fa-instagram"></i>
+</a>        </div>
+    </div>
+
+                        </li>
+                        <li><a href="/Visit-and-learn/How-Do-I-Get-Involved/Subscribe" class="btn btn-primary btn-block subscribe">Subscribe</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="footer-secondary-wrapper">
+        <nav role="navigation" class="footer-secondary">
+            <ul>
+    <li>
+
+            <a href="/Global/Sitemap" title="Sitemap" target="_self" alt="Sitemap">
+                Sitemap
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Glossary" title="Glossary" target="_self" alt="Glossary">
+                Glossary
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/FAQs" title="Frequently Asked Questions" target="_self" alt="Frequently Asked Questions">
+                Frequently Asked Questions
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Accessibility" title="Accessibility" target="_self" alt="Accessibility">
+                Accessibility
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Privacy-Statement" title="Privacy Statement" target="_self" alt="Privacy Statement">
+                Privacy Statement
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Copyright" title="Copyright" target="_self" alt="Copyright">
+                Copyright
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Disclaimer" title="Disclaimer" target="_self" alt="Disclaimer">
+                Disclaimer
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Parliamentary-Service" title="Parliamentary Service" target="_self" alt="Parliamentary Service">
+                Parliamentary Service
+            </a>
+    </li>
+    <li>
+
+            <a href="/Global/Useful-Links" title="Useful Links" target="_self" alt="Useful Links">
+                Useful Links
+            </a>
+    </li>
+            </ul>
+        </nav>
+        <div class="footer-copyright">
+            Copyright © 2026 All rights reserved                                  
+        </div>
+        <div class="footer-copyright">
+            Warning - Aboriginal and Torres Strait Islander people are warned that this web site may contain images of deceased people.            
+        </div>
+    </div>
+
+    </footer>
+</div>
+
+    
+    <script src="/scripts/QPS.min.js"></script>
+    <script src="/scripts/moment.js"></script>
+    <script src="/scripts/daterangepicker.min.js"></script>
+    <script src="/scripts/QPS_Search_Redirect.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BP7125H1YV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BP7125H1YV');
+    </script>
+    <script>
+        var ttt_cnt = 0;
+        var ttt_tmr;
+
+        $().ready(function () {
+            ttt_tmr = setInterval(ttt_fn, 200);
+            //console.log("TTT");
+        });
+
+        function ttt_fn() {
+            //console.log("TTT fn fired #" + ttt_cnt);
+            ttt_cnt++;
+            if (typeof (InitPage) != 'undefined') {
+                ttt_cnt = 50;
+                InitPage();
+                //console.log("TTT IP called");
+            }
+            if (ttt_cnt >= 50)
+                clearInterval(ttt_tmr);
+        }
+    </script>
+    <script>
+        /**
+* Sort values alphabetically in select
+*/
+        $.fn.extend({
+            sortSelect(skipFirst) {
+               // let options = (skipFirst) ? this.find("option:not(:first)") : this.find("option"),
+                let options = (skipFirst) ? this.find("option:gt(0)") : this.find("option"),
+                    arr = options.map(function (_, o) { return { t: $(o).text(), v: o.value, s: $(o).prop('selected') }; }).get();
+
+                arr.sort((o1, o2) => { // sort select
+                    let t1 = o1.t.toLowerCase(),
+                        t2 = o2.t.toLowerCase();
+                    return t1 > t2 ? 1 : t1 < t2 ? -1 : 0;
+                });
+
+                options.each((i, o) => {
+                    o.value = arr[i].v;
+                    $(o).text(arr[i].t);
+                    if (arr[i].s) {
+                        $(o).attr('selected', 'selected').prop('selected', true);
+                    } else {
+                        $(o).removeAttr('selected');
+                        $(o).prop('selected', false);
+                    }
+                });
+            }
+        });
+        $().ready(function () {
+            if (typeof (InitPage) != 'undefined') {
+                InitPage();
+            }
+
+        });
+    </script>
+
+</body>
+</html>

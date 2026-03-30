@@ -1,11 +1,12 @@
 import json
 import os
-import subprocess
 import requests
+import subprocess
+import time
 
-LLAMA_SERVER = os.environ.get("LLAMA_SERVER", "http://172.30.82.251:8000/v1")
+LLAMA_SERVER = os.environ.get("LLAMA_SERVER", "http://172.30.84.6:8000/v1")
 MODEL = "qwen3-coder:30b"
-PROJECT_DIR = os.environ.get("PARLIAMENT_DIR", ".")
+PROJECT_DIR = os.environ.get("PARLIAMENT_DIR", os.getcwd())
 MAX_TURNS = 15
 
 # ---------------------------------------------------------------------------
@@ -19,9 +20,11 @@ def list_files(path: str) -> str:
         return "Error: path outside project directory"
     return json.dumps(os.listdir(full_path))
 
+
 def read_file(path: str) -> str:
     full_path = os.path.normpath(os.path.join(PROJECT_DIR, path))
-    if not full_path.startswith(os.path.normpath(PROJECT_DIR)):
+    norm_project = os.path.normpath(PROJECT_DIR)
+    if not full_path.startswith(norm_project):
         return "Error: path outside project directory"
     with open(full_path, 'r') as f:
         return f.read()
@@ -140,7 +143,7 @@ def chat(messages: list) -> dict:
             "stream": False,
         },
         headers={"Authorization": "Bearer EMPTY"},
-        timeout=600,
+        timeout=1200,
     )
     response.raise_for_status()
     return response.json()
@@ -164,7 +167,7 @@ def run_agent(user_message: str):
             "content": (
                 "You are a coding assistant working on the Parliament Python project. "
                 "You can read and write files within the project directory and run unittest tests. "
-                "You cannot access the network or files outside the project. "
+                "You cannot files outside the project. "
                 "Always run tests after making changes to verify correctness."
             )
         },
@@ -176,7 +179,13 @@ def run_agent(user_message: str):
 
     for turn in range(MAX_TURNS):
         print(f"\n--- Turn {turn + 1} ---")
+        total_chars = sum(len(str(m.get('content', ''))) for m in messages)
+        print(f"Approximate context size: {total_chars} chars (~{total_chars//4} tokens)")
+        last_content = str(messages[-1].get('content', ''))[:200]
+        print(f"Last message: {last_content}")
+        t0 = time.time()
         response = chat(messages)
+        print(f"Model response time: {time.time() - t0:.1f}s")
         message = response['choices'][0]['message']
         finish_reason = response['choices'][0]['finish_reason']
         print(f"Finish reason: {finish_reason}")
